@@ -1,0 +1,32 @@
+[
+    {
+        "prompt": "What's the most chaotic thing someone in this room has ever talked you into?",
+        "mode": "Playful",
+        "setting": "Group",
+        "topic": "Relationship"
+    },
+    {
+        "prompt": "What's something you think I could get really good at that I'm not even trying?",
+        "mode": "Playful",
+        "setting": "With Someone",
+        "topic": "Growth"
+    },
+    {
+        "prompt": "What's something you wish you could say to someone in your family but haven't?",
+        "mode": "Intimate",
+        "setting": "Solo",
+        "topic": "Family"
+    },
+    {
+        "prompt": "What would everyone here be doing with their lives if money wasn't a factor?",
+        "mode": "Reflective",
+        "setting": "Group",
+        "topic": "Work"
+    },
+    {
+        "prompt": "What’s one thing you wish we did more of together?",
+        "mode": "Intimate",
+        "setting": "With Someone",
+        "topic": "Relationship"
+    }
+]
