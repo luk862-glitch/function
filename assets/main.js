@@ -5,7 +5,7 @@ let renderItems = (data) => {
     
     let itemHtml = `
     <li>
-        <h2>${data[Math.floor(Math.random() * data.length)].prompt}</h2>
+        <h2>${item.prompt}</h2>
     </li>
     `
         containerEl.insertAdjacentHTML('beforeend', itemHtml)

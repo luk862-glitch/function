@@ -29,4 +29,10 @@
         "setting": "With Someone",
         "topic": "Relationship"
     }
+    {
+        "prompt": "What’s the most ridiculous fashion trend you’ve ever followed?",
+        "mode": "Playful",
+        "setting": "Group",
+        "topic": "Growth"
+    }
 ]
