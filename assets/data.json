@@ -1,38 +1,3602 @@
 [
-    {
-        "prompt": "What's the most chaotic thing someone in this room has ever talked you into?",
-        "mode": "Playful",
-        "setting": "Group",
-        "topic": "Relationship"
-    },
-    {
-        "prompt": "What's something you think I could get really good at that I'm not even trying?",
-        "mode": "Playful",
-        "setting": "With Someone",
-        "topic": "Growth"
-    },
-    {
-        "prompt": "What's something you wish you could say to someone in your family but haven't?",
-        "mode": "Intimate",
-        "setting": "Solo",
-        "topic": "Family"
-    },
-    {
-        "prompt": "What would everyone here be doing with their lives if money wasn't a factor?",
-        "mode": "Reflective",
-        "setting": "Group",
-        "topic": "Work"
-    },
-    {
-        "prompt": "What’s one thing you wish we did more of together?",
-        "mode": "Intimate",
-        "setting": "With Someone",
-        "topic": "Relationship"
-    }
-    {
-        "prompt": "What’s the most ridiculous fashion trend you’ve ever followed?",
-        "mode": "Playful",
-        "setting": "Group",
-        "topic": "Growth"
-    }
+  {
+    "prompt": "You get a text from someone you ghosted saying they are in NYC. Do you respond or leave it on read? Be honest.",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You find out your closest friend back home has been venting about you to mutual friends. Do you bring it up or let it go?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Someone you have a complicated history with follows you on Instagram. Do you follow back?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You run into your ex on the subway and have three stops together. Do you talk or pretend to be on your phone?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Your best friend from home is visiting NYC for a week and wants to stay with you. Your apartment is a mess and your life is chaotic. Are you saying yes?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If your best friend from home met your best friend here, what is the one thing they would both agree on about you?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is a compliment someone gave you here that took you a while to realize was actually a compliment?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Think of the person you text the most. Would you have ever been friends with them if you both were back in your home countries?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is the most lost in translation moment you have had with someone you actually really liked?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you had to describe your social life here using only food from your home country, what would it look like?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You get offered your dream internship but it pays nothing and you would have to borrow money to survive. Are you taking it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "A professor offers to be your mentor but everyone says they are brutal and demanding. Do you say yes?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You find out a classmate submitted something almost identical to your project and got a better grade. Do you say something?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Someone offers you a job that has nothing to do with your degree but pays well and would let you stay in NYC. Are you taking it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You have a chance to present your work to a room full of industry people but you feel completely unprepared. Do you go for it or wait until you are ready?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is something your home country does better professionally that nobody here seems to understand?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could swap your major with anyone you know here, who would it be and why?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one career path you have considered here purely because it would let you stay?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the wildest side hustle you have thought about starting since moving here?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If your LinkedIn had to be 100 percent honest, what would the headline say?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Your parents want to video call every day. You love them but that is a lot. Do you set a boundary or just pick up every time?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "A family member makes a comment about your life choices here that genuinely stings. Do you clap back or let it slide?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Your family wants you to come home for a holiday but flights are expensive and you have deadlines. Do you go?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "You find out a family member has been telling relatives a very edited version of what your life here looks like. Do you correct the record?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Your parents offer to send you money but there are strings attached. Do you take it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you do here that you would never tell your parents about, not because it is bad but because it would require too much explaining?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you had to describe your current living situation to your family using only things they would understand, how would you do it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is the most NYC thing that has happened to you that your family back home would never believe?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is a piece of advice your parents gave you before you left that turned out to be completely wrong?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If your family group chat could see your screen time this week, what would the response be?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "You have been telling yourself you will start therapy since you got here. It has been a year. Are you actually going to do it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Someone offers you a chance to do something here that scares you but would probably change you. Are you saying yes?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You realize a habit you have had for years is actually not serving you at all. Do you cut it or keep it because it is familiar?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You get invited to something completely outside your comfort zone by someone you want to impress. Do you go?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You have the chance to stay in NYC for another year or go back home and start the next chapter. What are you actually feeling right now?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you had to give a TED talk based purely on what you have learned from living here, what would the title be?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What habit have you picked up here that your past self would find completely out of character?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something you used to judge people for back home that you now do regularly without thinking?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the hardest thing you have figured out how to do alone since moving here?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If moving here was a video game, what level do you think you are on right now?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You get free rent in NYC but the apartment has no natural light and is next to a bar. Are you saying yes?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You can get a free unlimited MetroCard but you have to commute an extra 45 minutes each way. Worth it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Someone offers you a sublet in a great neighborhood for half price but the lease is technically illegal. Do you take it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You find twenty dollars on the ground in the subway. What do you actually do with it?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You get offered a spot in a much nicer apartment but you would have to leave your current roommates. Are you moving?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the one app on your phone that you could not have survived here without?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is your most embarrassing subway moment so far?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the most you have ever spent on something here that you would never have bought back home?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about NYC that you complained about at first but have now completely accepted?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If your bedroom here could talk, what is the one secret it would tell?",
+    "mode": "Playful",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You find out the other person has been venting about something you did to a mutual friend before telling you directly. How do you handle it?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You two have been avoiding a conversation that probably needs to happen. Are you the one who brings it up first?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Someone in your life makes a comment implying this friendship is not as close as you think it is. Do you tell the other person?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You get the chance to move to a different city for an amazing opportunity but it means leaving this friendship behind. Do you go?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You find out the other person has been going through something hard and did not tell you. Do you bring it up or wait for them to come to you?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you had to introduce each other to your families back home, what is the one thing you would warn each other about?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is a habit of the other person that you have accidentally started doing yourself?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is the most NYC thing you two have done together that felt like a movie moment?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If this friendship were a dish, what would it be and what cuisine would it come from?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you would never have said to each other in the first month that you say casually now?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You and the other person are both going for the same opportunity. Do you compete or collaborate?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Someone offers you both a project together that is exciting but would be a lot of pressure on the friendship. Are you in?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You find out the other person got an opportunity you both applied for and they have not told you yet. How do you play it when you see them?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You get a chance to work on something big but you would need the other person's help and you are not sure they have the bandwidth. Do you ask?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You two disagree about a big career or academic decision one of you is about to make. Do you say what you actually think?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one professional skill the other person has that you are secretly jealous of?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you two had to pitch a startup to NYC investors right now, what would your roles be?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the most creative thing either of you has done to avoid doing actual work?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could take one class together that has nothing to do with your field, what would it be?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is a side hustle you think the other person could actually pull off?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Your family calls while you are with the other person and you instinctively step out. Does the other person know why?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "The other person meets your family for the first time and your family is being a lot. Do you apologize after or pretend it was fine?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "You find out the other person's family situation is more complicated than you realized. Do you ask about it or wait for them to bring it up?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Your family makes a comment about the other person that is unfair. Do you defend them?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "You both get the chance to visit each other's home countries. Whose are you more nervous about and why?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If your moms were in a group chat together, what would they be talking about right now?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is one thing your family back home would absolutely not understand about the other person?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is the funniest thing a family member has said about your life in NYC?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you two had to plan a trip back to each other's home countries, whose would be more chaotic?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you have learned about family from watching how the other person talks about theirs?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "The other person gives you honest feedback you did not ask for but kind of needed. Do you receive it well or get defensive?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You realize you have been leaning on the other person a lot lately. Do you say something or just quietly try to balance it out?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "The other person is going through a version of something you already went through. Do you give advice or let them figure it out?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You two have both changed since you met. Is the friendship keeping up with that or are you holding onto an older version of each other?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You get the chance to do something that would be really good for your growth but it would mean less time with the other person. Do you do it?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you have learned from the other person that you did not expect?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you had to rate each other's adaptation to NYC on a scale of 1 to 10, what would the score be and why?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the most New York thing either of you has done that felt like a personal evolution?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is a fear one of you had before moving here that the other person accidentally helped you get over?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you two wrote a guide for new international students together, what would the first tip be?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You get free rent in NYC but you have to share one apartment with the other person. Are you saying yes or no?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You and the other person discover you have completely opposite sleep schedules. Is this a dealbreaker for living together?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You both find the same thing on the street in NYC. Who gets it and how do you decide?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "One of you is better at adulting than the other. Who is it and does the other person know?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You two have to split one task neither of you wants to do. How does this actually go?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the most NYC problem either of you has had to deal with that did not exist back home?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something you two do together that would look completely unhinged to someone back home?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the most creative solution either of you has come up with for a very specific NYC problem?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you two had a reality show about your daily lives here, what would it be called?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about each other's daily routine that genuinely surprises you?",
+    "mode": "Playful",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You get free rent in NYC but you have to share one apartment with this group. Are you saying yes or no? Why?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Someone outside this group says something unfair about one of you. Does the group back them up or stay out of it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "This group has a falling out over something dumb. Who apologizes first and who holds the grudge the longest?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "You all get the chance to take a trip together but someone in the group is being difficult about plans. Do you work around them or have the conversation?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "One person in this group always shows up late. Everyone knows it. Does anyone say something?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If this group had a group chat name that was brutally honest, what would it be?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Who in this room gives the best advice about relationships and who gives the worst?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is the most chaotic thing this group has done together that somehow ended up being a core memory?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you had to pair everyone in this room with a NYC neighborhood based on their personality, where does everyone end up?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Who in this group has changed the most since you first met them and how?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "This group gets offered a paid project together. The money is good but the timeline is brutal. Are you all in?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Someone in this group gets a big opportunity that none of the others got. How does the group actually handle that?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You all find out you are being considered for the same competitive position. Does the group dynamic change?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Someone in this group is clearly burning out but not saying anything. Does anyone say something?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You all have the chance to collaborate on something that could be really good but would require one person to take the lead. Who is it and do they want it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If this group had to pitch a startup on the spot to a NYC investor, what would it be and who would do the talking?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Who in this room has the most impressive skill that has nothing to do with what they study?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the funniest thing that has happened to someone in this group at an internship or job here?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If everyone's work ethic were a NYC diner order, what is everyone getting?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Who in this room is most likely to end up on a Forbes list and what would it be for?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Someone in this group gets a call from home mid-hangout and completely checks out emotionally. Does anyone acknowledge it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "You all find out one person in the group has been dealing with family drama for months and said nothing. What happens next?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Your families all visit at the same time. Who in this group has the most chaotic week and why?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Someone in this group makes a joke about another person's home country that does not land. What happens?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "One person in this group is clearly homesick right now. Does the group notice and what do they do about it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Who in this room do you think is most like their parents and does that person know it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is one thing about someone's family in this room that you find genuinely fascinating?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If all of your moms were in a group chat together, rate how chaotic it would be out of 10.",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Who in this room has the funniest story about a family member trying to understand life in NYC?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you had to describe everyone's family vibe using a type of NYC restaurant, what is everyone getting?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "This group has the chance to do something that would push everyone outside their comfort zone. One person is hesitant. Do you go anyway or wait?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Someone in this group has visibly changed since you all met. Does anyone say anything about it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You all realize you have been in a bit of a rut together. Who is the one who shakes things up?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "One person in this group is about to make a decision everyone else thinks is a mistake. Does the group say something?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You all get the chance to do a month-long program abroad together. It would be amazing but also a lot. Is everyone actually in?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Who in this room has had the most dramatic mindset shift since moving here?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the most NYC thing someone in this group has fully embraced that surprised everyone else?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If everyone wrote a chapter in a book about growing up abroad, what would each person's chapter be called?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Who in this room has taught you something about yourself without realizing it?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one habit someone in this group has that you have secretly started doing yourself?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You get free rent in NYC but the whole group has to live together for a year. Who agrees immediately and who needs convincing?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "This group has to plan one night out in NYC with a 30 dollar budget each. Who takes charge and how does it actually go?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Someone in the group always forgets to Venmo people back. Everyone knows who it is. Does anyone say something?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You all get stranded somewhere in NYC together with dead phones. What actually happens?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "One person in this group has a very different idea of what a fun night looks like. Do you do their thing or does majority rule?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If everyone's daily routine were a NYC neighborhood, where does everyone live?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Who in this group has the best story about something going completely wrong in their apartment?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the most NYC problem someone in this room has complained about that people back home would not understand at all?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this group had to cook a meal together using only what is currently in everyone's fridge, what are we making?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Who in this room has the most chaotic sleep schedule and what is the reason?",
+    "mode": "Playful",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "You get free rent in NYC but you have to share one apartment with this entire room. Are you in or out and who are you most worried about?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "This whole room gets invited to the same party. Someone causes drama. Who is it most likely to be and what happened?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "A rumor goes around about someone in this room. Does anyone say something or does it just circulate?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Someone in this room has been going through something hard and nobody knew. What does the room do when it comes out?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "The whole group has a falling out. Who brokers the peace and who is still annoyed six months later?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If this group were a family, who is the overprotective parent, who is the chaotic sibling, and who is the one everyone calls for advice?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Who in this room do you think has grown the most comfortable with themselves since moving here?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you had to describe the vibe of this entire group using one NYC landmark, what is it?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Who in this room do you think would be the most different if you had all met back in your home countries?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If this group had a documentary made about it, what would the title be and who would be the main character?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Everyone in this room applies for the same highly competitive opportunity. One person gets it. What is the vibe in the room?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "This entire group gets offered a paid collaboration. The money is split equally regardless of contribution. Is everyone still in?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Someone in this room lands something huge and does not tell anyone for a week. When it comes out, what is the reaction?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "The room has to collectively decide who would be the worst person to work with in a high pressure situation. Who gets nominated?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "You all find out the job market in your field is worse than expected. What does the energy in this room look like right now?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you had to pitch this entire group as a team to a NYC investor, what is the one sentence pitch?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Who in this room has the most impressive side hustle idea that they have not started yet?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If everyone had to describe their relationship with productivity using a NYC food order, what is everyone getting?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Who in this room has had the most character-building work experience since moving here?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If this entire group had to collaborate on a creative project right now, what would it be and who would take over?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Every family in this room descends on NYC at the same time for a week. Who has the most chaotic visit and why?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Someone in this room gets a call from home that clearly wrecked them and they try to act normal. Does anyone say something?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "The room finds out one person has been sending their family a very polished version of their life here. Does anyone relate?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Someone makes an assumption about another person's home country in front of the whole group. What happens?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "The whole room is asked to describe their family in one word. Go around. Who gives the most loaded answer?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If all of your families visited NYC at the same time and had to spend a day together, what happens?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Who in this room has the funniest story about explaining something about NYC to their family back home?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If everyone's relationship with their family were a NYC restaurant, what type of place is everyone eating at?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Who in this room do you think misses home the most right now and are they admitting it?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you had to describe the collective family energy of this entire room in one word, what is it?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "This whole room gets offered a retreat that is supposed to be transformative but sounds intense. Who is immediately in and who needs convincing?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Someone in this room has clearly changed the most since everyone first met. Does the room agree on who it is?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "The group has a chance to do something collectively that would push everyone but one person is a hard no. Does the group go anyway?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Everyone in this room has to rate how much they have grown since moving here out of 10. Go around. Who gives themselves the lowest score and why?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "The whole room is asked what the one thing is that they would go back and do differently since arriving. What does the room say?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If everyone's personal growth since moving here were a NYC landmark, what is everyone's?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Who in this room has changed the most since you first met them and are they aware of it?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you had to give everyone in this room a superlative for their time here so far, go around and hand them out.",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Who in this room has the best story about doing something here they never thought they would do?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If this entire group could go back and give themselves one piece of advice before moving here, what does everyone say?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "You get free rent in NYC for a year but the whole room has to live together. Who says yes immediately and who is already making excuses?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "This entire room has to plan one event in NYC with a tight budget. Who takes over and how does it actually go?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Everyone in the room describes their current apartment situation in one sentence. Who wins worst living conditions?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "The whole room gets stranded somewhere in NYC together with no phones and no money. What happens in the first 10 minutes?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Someone in this room has a very different idea of a good time than everyone else. Does the group accommodate them or does majority rule?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this entire group had to move into one apartment together, who would be the most impossible to live with and why?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Who in this room has the best story about something completely breaking down in their daily life here?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If everyone's sleep schedule were a NYC time zone problem, what is everyone dealing with?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Who in this room has the most impressive budget hack they have actually stuck to?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this group had to describe life in NYC to someone who has never left their home country, who does the best job?",
+    "mode": "Playful",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could have one completely honest conversation with someone from your past that never happened, who is it with and what gets said?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If the people who know you back home and the people who know you here compared notes, where would the biggest gap be?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If loneliness here had a specific shape or texture, what would it be?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Have you let people here get as close to you as people back home, and if not, why?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there a relationship in your life right now that feels different since you moved here but you have not talked about it?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What kind of friend have you become here versus who you were back home?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there someone in your life right now you wish you were more honest with?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does loneliness feel like for you here compared to back home?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Have you been showing up for the people in your life the way you want to since moving here?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you wish the people closest to you back home understood about your life here?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you could rewind to the moment you chose this path and choose again with everything you know now, would you?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If the version of you that exists at 2am before a deadline is the honest one, what does that version actually want?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If success here came with a price tag you had to pay personally, what have you already spent?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "When did you last feel genuinely engaged with what you are studying or working on?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there a version of success you have been chasing here that belongs more to your family than to you?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one professional or academic risk you have been too afraid to take since moving here?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could not use your degree or field to define yourself, how would you describe what you care about?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does the pressure to justify moving here do to how you approach your work?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something you are learning here that you did not expect and that feels more meaningful than what you came for?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What would you tell yourself about work and ambition if you could go back to your first week here?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could sit down with a younger version of one of your parents and ask them anything, what would you ask?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home was a feeling and not a place, what does it feel like in your body right now?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could send your family one honest update about how you are actually doing, what would it say?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you understand about your parents now that you did not before you left?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Are you becoming someone your family would recognize, or are you changing in ways that feel hard to explain to them?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something your family expects from you that you are not sure you can give them?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does home mean to you now compared to before you left?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there a conversation you have been avoiding with a family member since moving here?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What part of how you were raised are you only now starting to question?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What do you wish your family knew about what this experience has actually been like for you?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If the version of you that arrived here could see you now, what would they be proud of and what would confuse them?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you had to name the one thing this experience has permanently changed about you, what is it?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could go back and be kinder to yourself during one specific moment since moving here, when would it be?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has living here taught you about who you are when no one who knew you before is watching?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there a version of yourself you left behind when you moved here that you sometimes miss?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the hardest thing you have had to figure out alone since arriving?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to you to grow up when you are doing it far from home?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you are still working on accepting about yourself that moving here brought to the surface?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has changed in what you value since you left home?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could talk to yourself on the day you arrived, what is the one thing you would want them to know?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If your daily life here was a film and someone watched it without sound, what story would they think they were watching?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could redesign one part of how you spend your time here, what would actually change?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If the city could give you back one thing it has taken from you, what would you ask for?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "When do you feel most like yourself here and when do you feel the furthest from it?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is a routine you have built here that you are genuinely proud of?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something you miss about the everyday life you had back home that is not a big dramatic thing?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does rest look like for you here, and is it actually restful?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about living in NYC that you have stopped noticing that would still amaze someone back home?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one habit you picked up here that you want to keep wherever you go next?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the smallest thing that has made the biggest difference in how you feel day to day since moving here?",
+    "mode": "Reflective",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this friendship had a title that described what it actually is rather than what it looks like, what would it be?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you could go back and be more honest with each other at a specific moment, when would it be?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you both knew you were moving to different countries in three months, what would change between now and then?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you think the other person misunderstands about you?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there a version of you that you show this person that you do not show anyone else?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something you have learned about yourself from how this person treats you?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something you have been meaning to say to each other that keeps not getting said?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does this friendship give you that is hard to find here otherwise?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "How do you think this friendship would be different if you had met back home instead of here?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you appreciate about the other person that you do not think you have ever said directly?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you could each step off your current path for six months with no consequences, what would you actually do?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If neither of you had to worry about visas or staying in this country, would your plans look different?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could be honest with each other about one professional fear you have been carrying alone, what is it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the pressure you each feel to justify being here professionally, and how does it affect you?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could tell each other one honest thing about how you see each other's ambitions, what would it be?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is something about the other person's work ethic or approach that has quietly influenced you?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there a version of success you are both chasing here that you have never actually talked about out loud?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What do you think the other person is really good at that they might be underestimating?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one professional fear you have not said out loud to many people that feels okay to say here?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you both could step back from the pressure of school or work for a month, what would you each actually do?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could give each other one piece of context about your family that would explain something about how you are, what would it be?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home called right now and asked how you are really doing, what would each of you actually say?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could spend one more day back home before you moved here knowing what you know now, what would you do differently?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something about being far from your family that the other person has helped you carry without realizing it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Has being here changed how you talk to your family back home, and do you think they have noticed?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is one thing you wish you could tell a family member right now that feels easier to say here first?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "How do you think your family back home would see this friendship if they really understood it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you have realized about your family since moving here that you have not talked about with many people?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there pressure from your family that has affected how you show up in this friendship without either of you naming it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does the idea of going back home permanently mean to each of you, and how does that feel?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could identify the exact moment you became a different person from who you were when you arrived, when was it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you had to describe where each of you is in your story right now, not the plot but the emotional chapter, what is it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could tell each other one honest thing about who you see them becoming, what would you say?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the hardest thing you have each had to figure out alone since being here, and did you ever ask for help?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you had to describe how you have each grown since moving here, what would you say about each other?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something you are still working on that moving here brought to the surface?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there a fear you had before moving here that this friendship has quietly helped with?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to each of you to feel like you belong somewhere, and do you feel that here?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you hope the other person holds onto about themselves no matter where they end up?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you both knew you were leaving in three months, what would you want to make sure you said to each other?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could redesign how you both spend a typical week here, what would actually change?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If the city gave each of you back one thing it has taken, what would you ask for?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could pause life here for one month and do anything, what does each of you actually want to do?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "When do you each feel most settled here and when does it still feel unfamiliar?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about living in NYC that you think has affected each of you differently?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something the other person has normalized about their daily life here that you think deserves more credit?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does it look like when the other person is genuinely doing okay versus just getting through it?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about your daily life here that you have not talked about with many people but feels okay to share now?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about the pace of life here that you are still adjusting to that you have not said out loud?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one small thing about everyday life here that you are genuinely grateful for?",
+    "mode": "Reflective",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this group had to name the invisible thing that holds it together, what would it be?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here had to describe what they were looking for when they first started building friendships here, and whether they found it, what does everyone say?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you all knew this was the last time you would be in the same city, what would tonight look like?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something this group has given you that you did not know you needed when you first arrived?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "How do you each think about the friendships you have made here versus the ones you left behind?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing someone in this group has done for you that they probably do not know mattered that much?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something about how you make friends here that is different from how you did it back home?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something about this group dynamic that you have noticed but never said out loud?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does loyalty look like to each of you, and has that changed since moving here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you hope this group still has years from now when everyone is in different places?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If none of you had to worry about staying in this country after graduation, how many of you would be doing something different?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If everyone here had to name the version of success they actually want versus the one they perform, where is the gap?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could each go back and tell yourself one thing before starting this academic or professional chapter, what is it?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does success look like to each of you now versus what it looked like before you moved here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about the way ambition works in this country that still feels foreign to any of you?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing you wish someone had told you about work or academia here before you arrived?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is something about your field or career path that you have started to question since being here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "How do you each handle the pressure of feeling like you have to prove something by being here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing someone in this group is working on that you think deserves more recognition?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If none of you had visa or immigration concerns, would any of your career plans look different?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could each send your family one honest voice memo about what this experience has really been like, what does everyone say?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home called every person in this room right now and asked how they were really doing, what would each person actually say versus what they would say out loud?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could spend one more day back home before you left knowing what you know now, what would you do?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there pressure from home that affects how any of you move through life here that you do not talk about much?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does home mean to each of you now compared to before you left?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there a family member whose opinion of your choices here matters more to you than you want it to?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you wish you could tell your family about what this experience has actually been like?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Has anyone in this group had a relationship with a family member change significantly since moving here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something your family gave you before you left that you have needed more than you expected?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "When you think about going back home permanently, what feeling comes up first?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If everyone had to identify the moment they felt like they actually crossed a threshold here, not just survived but changed, when was it?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could go back and be kinder to yourself during one specific part of this experience, when would it be?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If each person in this group had to name one thing they arrived believing that they no longer hold, what is it?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What part of yourself has each person in this group had to rebuild since moving here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to belong somewhere, and does anyone in this group feel that here?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something you are still figuring out about yourself that being here brought to the surface?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the most uncomfortable thing anyone in this group has pushed through since arriving?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has changed in what each of you values since leaving home?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you hope you keep about yourself no matter where you end up after this?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could each go back and tell yourself one thing on the day you arrived, what would it be?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If everyone could redesign one part of how they actually spend their time here, what would change?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If NYC gave each person in this room back one thing it has taken from them, what does everyone ask for?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could pause everything here for a month and do anything, what does each person actually want?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does rest actually look like for each of you here, and is it working?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something you miss about the everyday texture of life back home that is not a big dramatic thing?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is a routine any of you have built here that you are genuinely proud of?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about the pace or energy of this city that still catches you off guard?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about your daily life here that you have just accepted that maybe you should not have?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about living here that you will carry with you no matter where you go next?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the smallest thing that has made the biggest difference in how you feel day to day since arriving?",
+    "mode": "Reflective",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this kind of community had a name for what it gives each other that no one else can, what would it be?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here had to describe the specific kind of loneliness that comes with this experience, what words come up?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you all ended up in the same city ten years from now by coincidence, what do you think the conversation would be like?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Has anyone in this room had a friendship here that ended in a way they did not expect and still think about?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does it mean to each of you to feel known by someone when you are this far from home?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something about how you show up in relationships here that is different from who you were back home?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing this group, or groups like it, has meant to your experience here that you do not say out loud enough?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Has moving here made any of you more or less trusting of people, and do you know why?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something you have let people here see that people back home have not?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone in this room left tomorrow, what is one thing you would want to have said to at least one person here?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here had to be honest about whether the sacrifice of being here has been worth it professionally, what does the room say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If none of you had immigration or visa pressure shaping your decisions, how many of you would be on a different path?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could each go back and tell yourself one thing before starting this chapter, what does the room say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there a professional or academic decision any of you made here primarily out of fear rather than desire?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does it feel like to build a career in a place where you are not sure you are allowed to stay?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is something you wish you could tell your past self about work before you started this chapter?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Has anyone in this room changed their career direction since arriving, and what made them do it?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing about how work or ambition is valued here that still does not sit right with you?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If the visa or immigration situation were not a factor, how many of you would make different choices?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing about your professional life here that you are genuinely proud of, even if it is small?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If everyone here could send their family one honest message about what this experience has actually cost them, what does the room say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could each spend one more day back home before you left knowing what you know now, what would you do?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home is a feeling and not a place, what does it feel like for people in this room right now?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there pressure from home that shapes how any of you move through this experience that rarely gets named?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does the idea of going back home permanently bring up for each of you?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something a family member said to you before you left that has stayed with you more than you expected?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Has being here made anyone more or less close to their family, and do you know why?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you have realized about where you come from since being surrounded by people from everywhere?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is one thing you wish your family could see about who you have become here?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does home mean to you now, and is it still the same place it was when you left?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If everyone here had to name the one thing this experience has permanently changed about them, what does the room say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could each go back and be kinder to yourself during one specific moment since moving here, when would it be?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If this entire room could send one message to the version of themselves that was about to board the plane, what does everyone say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to grow up in a place that was not made for you?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something you believe now that you would have disagreed with on the day you arrived?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Has anyone in this room had a moment here that genuinely changed how they see themselves?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you are still figuring out about who you are that this experience has made impossible to ignore?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has living among people from so many different places taught each of you about your own culture?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something you hope you never lose about yourself no matter where you end up?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If this entire room could send one message back to the version of themselves that was about to board the plane, what does everyone say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If NYC gave every person in this room back one thing it has taken from them, what does everyone ask for?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could each redesign one part of how you actually spend your time here, what would change?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If the city could speak to every person in this room right now, what do you think it would say?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about the texture of daily life back home that you did not know you would miss this much?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is a small thing anyone in this room has figured out about living here that made a real difference?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does it feel like to build a daily life in a city that moves as fast as this one?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about how you take care of yourself here that you would not have prioritized back home?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about your daily life here that you want to be different and have not changed yet?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does it mean to feel at home somewhere, and does anyone in this room feel that here?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about the life you have built here, however small, that you are genuinely proud of?",
+    "mode": "Reflective",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could have one completely honest conversation with someone in your life right now with zero consequences, who is it with and what gets said?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If the version of you that existed before you moved here could see how you love people now, what would they notice?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If loneliness here had a specific face or voice, whose would it be?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Have you let yourself be as vulnerable with people here as you were with people back home?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there someone whose absence since moving here has been harder than you expected?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What kind of love have you been the worst at giving since moving here?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there a relationship you have been protecting by not saying something that needs to be said?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does it feel like to build intimacy with people who might leave, or who you might leave?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Who do you think knows you the best right now, and is that the person you would have chosen?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is the most honest thing you have not said to someone you care about since moving here?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you stripped away everything you are working toward here and just sat with what you actually want, what is left?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If the fear underneath your ambitions had a name, what would it be?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could step off this path for a year with no consequences and no one watching, what would you actually do?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there a version of your career or academic path that you want but feel like you are not allowed to want?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What would you do differently if you were not trying to prove something to anyone?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the most honest thing you can say about how you feel about the path you are on right now?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about your ambitions here that you have been performing more than actually feeling?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does it cost you emotionally to keep pushing in the way that you have been?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you stepped off the path you are on right now, what is the feeling you are most afraid of?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing about your work or academic life here that you have never said out loud because it felt too raw?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could go back and say one thing to a younger version of yourself about the family you come from, what would it be?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home called right now and asked how you are really doing, what would you actually say?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could spend one more day back home before you left knowing what you know now, how would you spend it?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does it feel like to carry your family's expectations across an ocean?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there a version of your relationship with your parents that you grieve a little since moving here?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you have forgiven your family for since moving away that you could not have before?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does home feel like in your body, not as a place but as a feeling?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there something a family member has said to you that you are still carrying that you have not told anyone?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is the hardest thing about loving people who are this far away?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What do you wish your family knew about what it has actually cost you to be here?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could identify the exact moment you became a different person from who you were when you arrived, when was it?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could go back and be kinder to yourself during one specific moment since moving here, when would it be?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If the most honest version of you wrote a letter to the person you are becoming, what would it say?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there a part of yourself you have had to protect here in a way you did not have to back home?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the most honest thing you can say about where you are right now, not where you are supposed to be?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has this experience broken open in you that you are still figuring out what to do with?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there something you have accepted about yourself since moving here that you spent a long time resisting?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to you to be brave, and have you been?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something you are still learning to forgive yourself for?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could be fully honest with yourself about how you are doing right now, what would you say?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If your daily life here was a film and someone watched it without sound, what story would they think they were watching?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could give yourself back one thing this city has taken from you, what would you ask for?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could redesign one part of how you actually spend your days here starting tomorrow, what would change first?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "When do you feel the most alone in your daily life here, and what do you do with that feeling?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about the life you are building here that you are quietly proud of?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there a version of your daily life here that you are performing for other people that is different from how it actually feels?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does it feel like to wake up in a city that is not the one you grew up in?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about how you take care of yourself here that you wish you did better?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the moment in your week where you feel most like yourself?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about your everyday life here that you have never said out loud but feels true?",
+    "mode": "Intimate",
+    "number": "1",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this relationship had a title that described what it actually is rather than what it looks like from outside, what would it be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you both knew you were going to be in different countries in six months, what would you want to say before then?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you could go back to one moment between us and stay in it a little longer, which one would it be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there a version of me that you saw early on that you are not sure is still there?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something you have forgiven me for that you never actually told me about?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does this friendship or relationship give you that is hard to find anywhere else here?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something you have been holding back from me because you were not sure I could handle it?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "When do you feel most like yourself around me and when do you feel the furthest from it?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something about us that you think only works because of where we both are right now?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If we knew we were going to be in different countries in a year, is there anything you would want to say before then?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you could tell each other one completely honest thing about the fear underneath your ambitions here, what is it?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If neither of you had to worry about visas or staying in this country, what would each of you actually do?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could each step off your current path for a year with no consequences, what does each of you actually want?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about the path the other person is on that you have noticed but never said?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does it actually cost each of you to keep pushing the way you have been?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about your career or academic direction that you are doing for reasons that are not fully yours?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the most honest thing either of you can say about how you actually feel about where you are professionally right now?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What would you each do if you found out tomorrow that staying in this country long term was not going to be possible?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something the other person is working on that you think matters more than they let on?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing about your ambitions here that you have never said out loud because it felt too honest?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could give each other one piece of context about your family that would explain something about who you are, what would it be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could spend one more day back home before you moved here knowing what you know now, how would you spend it?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home called each of you right now and asked how you are really doing, what would you actually say versus what you would say?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something about your relationship with your family that has shifted since moving here that you have not talked about with many people?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there something a family member has said or done that you are still carrying that you have never told me?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does it feel like to love people who are this far away, and how do you hold that?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there something you have realized about your family since being here that you have been sitting with alone?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something your family does not know about who you have become here that you wish they could see?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there a part of how you were raised that you are still figuring out how to feel about?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something about your family that you have never said out loud to me because it felt too close?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could identify the exact moment the other person changed in a way you noticed but never said anything about, when was it?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could go back and be kinder to yourself or each other during one specific moment since moving here, when would it be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could tell each other one honest thing about who you see them becoming that they might not see themselves, what would it be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has knowing the other person changed about how you see yourself?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there something you are still grieving about who you thought you would be by now?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it feel like to become a different version of yourself in a place where most people only know this version?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the most honest thing either of you can say about where you actually are right now, not where you are supposed to be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there something you have been afraid to want for yourself that the other person has made feel more possible?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you hope the other person never loses about themselves?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could say one completely honest thing to each other about who you are becoming, what would it be?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could give each other back one thing this city has taken from you, what does each person ask for?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If your daily life here was a film and the other person watched it without sound, what story would they think they were watching?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could pause everything here for one month and do anything together or separately, what does each of you actually want?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "When do you feel the most at peace in your daily life here, and when do you feel the most untethered?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about how the other person moves through their days here that you have noticed and never said anything about?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something small about your everyday life here that has ended up meaning more than you expected?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about how you are living here that you would change if you were not worried about what it looked like?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does a moment of genuine connection feel like for each of you in the middle of all the noise of this city?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about your daily life here that you have been pretending is fine that maybe is not?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about how the other person lives that you find quietly beautiful?",
+    "mode": "Intimate",
+    "number": "2",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this group had to name the invisible thing that holds it together, what would it be?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you all knew this was the last time you would be in the same city, what would you want to say to each other?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here had to describe what they were actually looking for when they started building friendships here, and whether they found it, what does everyone say?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is something someone in this group has done for you that they probably do not know actually mattered?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Has anyone in this group been through something hard since moving here that they mostly carried alone?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does being known by someone feel like to each of you, and do you feel that here?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something about this group that you have needed but have not known how to ask for?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you would want each person in this group to know about what they have meant to you here?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What kind of friendship has been hardest to find here, and has anyone in this group come close to filling that?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone in this room left tomorrow, is there something you would want to have said that you have not?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here had to name the version of success they actually want versus the one they perform for other people, where is the gap?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If none of you had immigration pressure shaping your decisions, how many of you would be doing something different and what?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could each tell the group one professional or academic fear you have been carrying mostly alone, what is it?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about the path any of you are on that you are doing for reasons that are not fully your own?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What would each person in this group do differently if they were not trying to prove something to anyone?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the most honest thing anyone in this room can say about how they actually feel about where they are professionally?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about someone else's work or direction in this group that you have noticed and never said?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does failure feel like to each of you, and whose voice does it sound like?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Has anyone in this group changed direction since arriving in a way that cost them something?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is one thing you hope each person in this room gives themselves permission to want?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If you could each send your family one honest voice memo about what this experience has really been like, what does everyone say?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could spend one more day back home before you left knowing what you know now, what would each person do?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home is a feeling and not a place, what does it feel like for each person in this group right now?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Has anyone in this group had a relationship with a family member change in a way they did not expect since moving here?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something your family does not know about who you have become here that you wish they could see?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there a wound that moving here made harder to avoid that has something to do with where you come from?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does home feel like now, not as a place but as a feeling in your body?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there something about being raised the way you were that you are still figuring out how to feel about?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something you have realized about your family since being surrounded by people from completely different backgrounds?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is the hardest thing about loving people who are this far away, and how do you hold it?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If everyone could identify the moment they felt like they actually crossed a threshold here, not just survived but genuinely changed, when was it?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could each go back and be kinder to yourself during one specific part of this experience, when would it be?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If the most honest version of each person in this room wrote a letter to who they are becoming, what is one thing every letter would say?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something anyone in this group has accepted about themselves since moving here that took a long time?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there something you have broken open in yourself since arriving that you are still figuring out what to do with?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is the most honest thing anyone in this room can say about where they actually are, not where they are supposed to be?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has this experience asked of each of you that you were not sure you could give?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there something you are learning to forgive yourself for that being here brought to the surface?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to each of you to be brave, and have you felt that here?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you hope everyone in this group holds onto about themselves no matter where they end up?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If this city could give each person in this room back one thing it has taken from them, what does everyone ask for?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If your daily life here was a film and the people in this room watched it without sound, what story would they think they were watching?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could pause everything here for one month with no consequences, what does each person in this group actually want to do?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "When do you each feel the most like yourself in your day to day, and when do you feel the furthest from it?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about how any of you take care of yourselves here that deserves more acknowledgment?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does genuine rest look like for each person in this group, and are you getting it?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about the life you are building here, however small, that you are quietly proud of?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about your daily life here that you would change if you were not worried about how it looked?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the moment in each person's week where they feel most settled?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is one thing about how you are living here that you have never said out loud but feel okay saying now?",
+    "mode": "Intimate",
+    "number": "3-5",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If this kind of community had a name for the specific thing it gives people that nothing else can, what would it be?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here had to describe the version of connection they have been most hungry for since moving here, what does the room say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If you all ended up in the same city ten years from now by coincidence and sat down together, what do you think the conversation would be?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something about how you let people in that has changed since moving here?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is the most meaningful thing a friendship here has given you that you could not have anticipated?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Has anyone in this room loved someone here in a way that they knew had an expiration date, and what was that like?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What does it feel like to build something real with people when everyone is in transit?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "Is there something you have let people here see that people back home never have?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "What is one thing you would want someone in this room to know about what they have meant to your time here?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If this were the last time this group was all together, what would you want to have said?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Relationship"
+  },
+  {
+    "prompt": "If everyone here stripped away what they are working toward and just sat with what they actually want, what is left?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If none of you had immigration or visa pressure shaping your choices, how many of you would be on a different path and where would it go?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If each person in this room could name the fear underneath their ambitions here, what does the room say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What would each person in this room do if they knew with certainty they could not stay here after graduation?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Is there something about the pressure to succeed here that has cost anyone in this room something they did not expect?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is the most honest thing anyone in this room can say about the gap between how they present their ambitions and how they actually feel?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "Has anyone in this room made a professional or academic choice here that came from fear rather than desire?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What does it mean to each of you to feel like the sacrifice of being here was worth it?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "What is something anyone in this room is working toward that they have never said out loud because it felt too honest?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If everyone here gave themselves permission to want exactly what they actually want, what would change?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Work"
+  },
+  {
+    "prompt": "If everyone here could send their family one completely honest message about what this has actually cost them, what does the room say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If home is a feeling and not a place, what does it feel like for people in this room right now?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If you could each spend one more day back home before you left knowing what you know now, what does everyone say they would do?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Has anyone in this room had to grieve a version of their relationship with a family member since moving here?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something your family has given you that you only understood the value of after you left?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Is there something you wish you could say to a family member that feels impossible to say across this distance?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What does home feel like to each of you now, and is it still the same place?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is something about where you come from that being around people from everywhere has helped you see more clearly?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "Has anyone in this room had a moment here where they felt their family and their life here pulling in opposite directions?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "What is one thing you hope your family knows about who you are becoming here, even if you have not found the words to tell them?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Family"
+  },
+  {
+    "prompt": "If everyone here had to name the one thing this experience has permanently changed about them, what does the room say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If the most honest version of each person in this room wrote a letter to who they are becoming, what is one thing every letter would say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If you could each go back and be kinder to yourself during one specific moment since moving here, what does the room say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there a version of yourself you came here as that you have had to let go of?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What does it mean to grow up when you are doing it in a place that was not made for you?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is something anyone in this room has had to accept about themselves since arriving that took longer than they expected?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What has living among people from everywhere taught you about the parts of yourself that are specifically yours?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "Is there something you are still learning to forgive yourself for that this experience brought to the surface?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "What is one thing you hope you never lose about yourself no matter where you end up after this?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If everyone in this room could say one honest thing to themselves about who they are becoming, what would it be?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Growth"
+  },
+  {
+    "prompt": "If this city could give every person in this room back one thing it has taken from them, what does everyone ask for?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If your daily life here was a film and this room watched it without sound, what story would they think they were watching?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If everyone here could pause life for one month with no consequences, what does each person actually want to do with it?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does it feel like to build a routine in a city that never really slows down for you to catch your breath?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about how you take care of yourself here that you are proud of but rarely talk about?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What does genuine rest feel like to each of you, and when did you last have it?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "Is there something about the life you are living here that you would change if you were not worried about what it meant?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is something about your everyday life here that you have been performing as more okay than it actually is?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "What is the smallest thing that has made the biggest difference in how you feel since moving here?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  },
+  {
+    "prompt": "If you could be fully honest with this room about how you are actually doing right now, what would you say?",
+    "mode": "Intimate",
+    "number": "6+",
+    "topic": "Everyday life"
+  }
 ]
