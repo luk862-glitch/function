@@ -10,14 +10,18 @@
 <body>
     <h1>Conversation Prompt Generator</h1>
 
-<section>
-    <label for="mode">Select mode</label>
-    <select id="mode" name="mode">
-        <option>Playful</option>
-        <option>Reflective</option>
-        <option>Intimate</option>
-    </select>
-</section>
+    <form id="some-form">
+
+    <section>
+        <label for="mode">Mode</label>
+        <select id="mode" name="mode">
+            <option>Select</option>
+            <option>Playful</option>
+            <option>Reflective</option>
+            <option>Intimate</option>
+        </select>
+    </section>
+
     <section>
         <label for="number">Number of people</label>
         <select id="number" name="number">
@@ -28,6 +32,31 @@
             <option>6+</option>
         </select>
     </section>
+
+    <section>
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic">
+            <option>All</option>
+            <option>Relationship</option>
+            <option>Work</option>
+            <option>Family</option>
+            <option>Growth</option>
+        </select>
+    </section>
+
+    <div>
+    <button type="submit">Generate</button>
+    </div>
+
+    </form>
+
+
+    <ul id="convo-prompts"></ul>
+
+
+    <!-- <div>
+    <button id="next">Next</button>
+    </div> -->
 
 </body>
 </html>
