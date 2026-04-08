@@ -25,6 +25,16 @@ li {
 	list-style: none;
 }
 
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.saved-questions {
+	position: absolute;
+  	right: var(--spacing);
+}
+
 .generate-button {
 	color:var(--primary-color);
 	background-color: var(--secondary-color);
