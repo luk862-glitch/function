@@ -21,9 +21,10 @@ let renderItems = () => {
 
     data.forEach(prompt => {
 
-    // If user selects a specific mode & number, but leave topic as "All"
+    //If user selects a specific mode & number, but leave topic as "All"
         if (prompt.mode === mode &&
-            prompt.number === number)
+            prompt.number === number &&
+            topic === "All") //If user selects "All" for topic, which only exists in the html dropdown not in json
         {
             results.push(prompt)
         }
