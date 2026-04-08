@@ -72,7 +72,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "You find out a classmate submitted something almost identical to your project and got a better grade. Do you say something?",
+    "prompt": "You get offered your dream internship but it pays nothing and you would have to borrow money to survive. Are you taking it?",
     "mode": "Playful",
     "number": "1",
     "topic": "Work"
@@ -96,7 +96,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "If you could swap your major with anyone you know here, who would it be and why?",
+    "prompt": "What is one skill you have picked up in NYC purely out of survival that you never expected to need?",
     "mode": "Playful",
     "number": "1",
     "topic": "Work"
@@ -696,7 +696,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room has the most impressive skill that has nothing to do with what they study?",
+    "prompt": "What is the wildest side hustle you have thought about starting since moving here?",
     "mode": "Playful",
     "number": "3-5",
     "topic": "Work"
@@ -1104,13 +1104,13 @@
     "topic": "Growth"
   },
   {
-    "prompt": "The whole room is asked what the one thing is that they would go back and do differently since arriving. What does the room say?",
+    "prompt": "What’s one thing you would do differently since arriving in NYC?",
     "mode": "Playful",
     "number": "6+",
     "topic": "Growth"
   },
   {
-    "prompt": "If everyone's personal growth since moving here were a NYC landmark, what is everyone's?",
+    "prompt": "If you could go back and give yourself one piece of advice before moving here, what does everyone say?",
     "mode": "Playful",
     "number": "6+",
     "topic": "Growth"
