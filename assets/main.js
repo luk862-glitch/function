@@ -94,3 +94,23 @@ document.addEventListener('click', (event) => {
 	}
 })
 
+
+
+// set an empty array to store the saved prompts
+let savedPrompts = []
+
+document.querySelector('#convo-prompts').addEventListener('click', (event) => {
+    if (event.target.id === 'save') {
+        
+        // grab the current prompt text and tags from the page
+        // here I'm changing the current prompt into an "object". Found how to do this here https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
+        let currentPrompt = {
+            prompt: document.querySelector('#convo-prompts').textContent, //I googled "javascript get text" and found this Stackoverflow thread that suggests using textContent https://stackoverflow.com/questions/6743912/how-to-get-the-pure-text-without-html-element-using-javascript 
+            mode: document.querySelector('#mode').value,
+            number: document.querySelector('#number').value,
+            topic: document.querySelector('#topic').value
+        }
+
+        // add it to the saved list
+        savedPrompts.push(currentPrompt) //push current prompt into the empty savedPrompts array I set earlier
+})
