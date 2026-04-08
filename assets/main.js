@@ -116,7 +116,8 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
 
         // add it to the saved list
         savedPrompts.push(currentPrompt) //push current prompt into the empty savedPrompts array I set earlier
-})
+    }
+    })
 
 
 modalButton.addEventListener('click', () => {
