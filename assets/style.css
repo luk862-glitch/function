@@ -1,10 +1,16 @@
 body {
-	--spacing: 2em;
+	--spacing: 2rem;
 
 	display: grid;
 	gap: var(--spacing);
 	margin: initial;
 	padding: var(--spacing);
+
+	--primary-color: darkmagenta;
+	--secondary-color: rgb(234, 232, 229);
+
+	--small-font-size: .8rem;
+
 }
 
 form {
@@ -19,3 +25,23 @@ li {
 	list-style: none;
 }
 
+.generate-button {
+	color:var(--primary-color);
+	background-color: var(--secondary-color);
+	border: none;
+	font-size: var(--small-font-size);
+	width: 5rem;
+	padding-block: .3rem;
+	border-radius: 1rem;
+}
+
+
+.next-button {
+	color:var(--secondary-color);
+	background-color: var(--primary-color);
+	border: none;
+	font-size: var(--small-font-size);
+	width: 5rem;
+	padding-block: .3rem;
+	border-radius: 1rem;
+}
