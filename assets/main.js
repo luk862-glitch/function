@@ -72,11 +72,11 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
 })
 
 
-// saved convo prompt button & modal (class site example)
 
-let modalButton = document.querySelector('#modal') // The thing we’re clicking.
-let modalDialog = document.querySelector('#dialog') // Now one for our `dialog`.
-let closeButton = modalDialog.querySelector('button') // Only looking within `modalDialog`.
+// I need a saved convo prompt button & modal. The following is from class site example
+let modalButton = document.querySelector('#modal') // Get the "view saved" button 
+let modalDialog = document.querySelector('#dialog') // get the modal
+let closeButton = modalDialog.querySelector('button') // get the close button in the modal
 
 modalButton.addEventListener('click', () => { // “Listen” for clicks.
 	modalDialog.showModal() // This opens it up.
