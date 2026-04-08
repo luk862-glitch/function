@@ -36,8 +36,11 @@ let renderItems = () => {
         {
             results.push(prompt)
         }
+    }
+)
 
-    })
+
+
 
 //generate a prompt randomly that matches the user's selection
     let random = results[Math.floor(Math.random() * results.length)]
@@ -113,4 +116,32 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
 
         // add it to the saved list
         savedPrompts.push(currentPrompt) //push current prompt into the empty savedPrompts array I set earlier
+})
+
+
+modalButton.addEventListener('click', () => {
+    let savedList = document.querySelector('#saved-list')
+    savedList.innerHTML = ''
+
+//if user did not save any prompt
+    if (savedPrompts.length === 0) {
+        savedList.innerHTML = 
+        `
+        <p>You do not have any saved questions atm!</p>
+        `
+
+        } else {
+            savedPrompts.forEach(item => {
+            let itemHtml =
+            `
+            <li>
+                <h2>${item.prompt}</h2>
+                <p>${item.mode} | ${item.number} | ${item.topic}</p> // I want to show user input as tags under the prompt
+            </li>
+            `
+            savedList.insertAdjacentHTML('beforeend', itemHtml)
+        })
+    }
+
+    modalDialog.showModal()
 })
