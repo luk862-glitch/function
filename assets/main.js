@@ -33,27 +33,27 @@ let renderItems = () => {
         else if (prompt.mode === mode && 
             prompt.number === number && 
             prompt.topic === topic) 
-            
         {
             results.push(prompt)
         }
 
     })
 
+//generate a prompt randomly that matches the user's selection
     let random = results[Math.floor(Math.random() * results.length)]
 
     let containerEl = document.querySelector('#convo-prompts')
     containerEl.innerHTML = ''
+    
     let itemHtml =
     `
     <li>
         <h2>${random.prompt}</h2>
+        <button id="next" class="next-button">Next</button>
     </li>
     `
     containerEl.insertAdjacentHTML('beforeend', itemHtml)
 }
-
-
 
 
 document.querySelector('#some-form').addEventListener('submit', (event) => {
@@ -61,6 +61,10 @@ document.querySelector('#some-form').addEventListener('submit', (event) => {
     renderItems()
 })
 
-// document.querySelector('#next').addEventListener('click', () => {
-//     renderItems()
-// })
+//generate a new prompt when user slects "next"
+//targeting #convo-prompts so it only appears when a prompt is shown & page loads. event.target.id on MDN: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_delegation
+document.querySelector('#convo-prompts').addEventListener('click', (event) => {
+    if (event.target.id === 'next') {
+        renderItems()
+    }
+})
