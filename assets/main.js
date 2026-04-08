@@ -131,13 +131,14 @@ modalButton.addEventListener('click', () => {
         <p>You do not have any saved questions atm!</p>
         `
 
+        // I want to show user input as tags under the prompt besides the prompt
         } else {
             savedPrompts.forEach(item => {
             let itemHtml =
             `
             <li>
                 <h2>${item.prompt}</h2>
-                <p>${item.mode} | ${item.number} | ${item.topic}</p> // I want to show user input as tags under the prompt
+                <p>${item.mode} | ${item.number} | ${item.topic}</p> 
             </li>
             `
             savedList.insertAdjacentHTML('beforeend', itemHtml)
