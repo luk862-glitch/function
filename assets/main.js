@@ -109,7 +109,7 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
         let currentPrompt = {
             prompt: document.querySelector('#convo-prompts').textContent, //I googled "javascript get text" and found this Stackoverflow thread that suggests using textContent https://stackoverflow.com/questions/6743912/how-to-get-the-pure-text-without-html-element-using-javascript 
             mode: document.querySelector('#mode').value,
-            number: document.querySelector('#number').value,
+            setting: document.querySelector('#setting').value,
             topic: document.querySelector('#topic').value
         }
 
@@ -137,7 +137,7 @@ modalButton.addEventListener('click', () => {
             `
             <li>
                 <h2>${item.prompt}</h2>
-                <p>${item.mode} | ${item.number} | ${item.topic}</p> 
+                <p>${item.mode} | ${item.setting} | ${item.topic}</p> 
             </li>
             `
             savedList.insertAdjacentHTML('beforeend', itemHtml)
