@@ -94,7 +94,7 @@ select {
     cursor: pointer;
 	padding-block: .5rem;
 	padding-inline: .5rem;
-    /* width: 100%; */
+    width: 20%;
 }
 
 
