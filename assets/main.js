@@ -56,14 +56,14 @@ let renderItems = () => {
     </li>
     `
     containerEl.insertAdjacentHTML('beforeend', itemHtml)
-
-}
+    containerEl.scrollIntoView({ behavior: "smooth"}) // scroll to prompt after it is generated. I learned scrollIntoView({ behavior: "smooth"}) while working on the hero section and “Let’s Get Started” button, then used it here too so the experience feels more step by step
 
 
 document.querySelector('#some-form').addEventListener('submit', (event) => {
     event.preventDefault()
     renderItems()
 })
+
 
 //generate a new prompt when user slects "next"
 //targeting #convo-prompts so it only appears when a prompt is shown & page loads. event.target.id on MDN: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Events#event_delegation
@@ -146,3 +146,12 @@ modalButton.addEventListener('click', () => {
 
     modalDialog.showModal()
 })
+
+
+// I want to add a scroll behavior when user clicks the button on hero "let's get started" that takes them to the form
+// found scrollIntoView on MDN: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
+
+document.querySelector('#start-button').addEventListener('click', () => { 
+    document.querySelector('#some-form').scrollIntoView({ behavior: "smooth"})
+})
+
