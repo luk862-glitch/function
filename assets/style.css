@@ -1,16 +1,32 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
 	--spacing: 2rem;
 
 	display: grid;
 	gap: var(--spacing);
 	margin: initial;
 	padding: var(--spacing);
+	--h1-font-size: 2rem;
+	--h2-font-size: 1rem;
+	--s-font-size: .875rem;
+
+	--primary-font: 'Schibsted Grotesk', sans-serif;
+}
+	font-family: var(--primary-font);
+    font-size: var(--h1-font-size);
 
 	--primary-color: darkmagenta;
 	--secondary-color: rgb(234, 232, 229);
+	font-size: var(--h2-font-size);
+	font-size: var(--s-font-size);
+		font-size: calc(var(--h1-font-size) * 2);
 
 	--small-font-size: .8rem;
+		font-size: calc(var(--h2-font-size) * 1.5);
 
+		font-size: calc(var(--s-font-size) * 1.25);
 }
 
 form {
@@ -21,6 +37,7 @@ form {
 	padding: var(--spacing);
 }
 
+	font-size: var(--h2-font-size);
 li {
 	list-style: none;
 }
@@ -37,12 +54,14 @@ nav {
 
 .generate-button {
 	color:var(--primary-color);
+	font-size: var(--h2-font-size);
 	background-color: var(--secondary-color);
 	border: none;
 	font-size: var(--small-font-size);
 	width: 5rem;
 	padding-block: .3rem;
 	border-radius: 1rem;
+	font-size: var(--s-font-size);
 }
 
 
