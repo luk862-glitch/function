@@ -19,6 +19,15 @@
 
 	--primary-font: 'Schibsted Grotesk', sans-serif;
 }
+
+header {
+	min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: var(--spacing);
+}
+
 	font-family: var(--primary-font);
     background: var(--bg-color);
     font-size: var(--h1-font-size);
