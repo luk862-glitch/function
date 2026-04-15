@@ -23,6 +23,7 @@ let renderItems = () => {
 
     //If user selects a specific mode & setting, but leave topic as "All"
         if (prompt.mode === mode &&
+            prompt.setting === setting &&
             topic === "All") //If user selects "All" for topic, which only exists in the html dropdown not in json
         {
             results.push(prompt)
