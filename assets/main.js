@@ -57,7 +57,7 @@ let renderItems = () => {
     `
     containerEl.insertAdjacentHTML('beforeend', itemHtml)
     containerEl.scrollIntoView({ behavior: "smooth"}) // scroll to prompt after it is generated. I learned scrollIntoView({ behavior: "smooth"}) while working on the hero section and “Let’s Get Started” button, then used it here too so the experience feels more step by step
-
+}
 
 document.querySelector('#some-form').addEventListener('submit', (event) => {
     event.preventDefault()
