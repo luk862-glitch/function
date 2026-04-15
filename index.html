@@ -28,14 +28,24 @@
     </section>
 
     <section>
-        <label for="setting">Setting</label>
-        <select id="setting" name="setting">
-            <option>Select</option>
-            <option>Solo</option>
-            <option>Duo</option>
-            <option>Small Group (3-5)</option>
-            <option>Large Group (6+)</option>
-        </select>
+        <fieldset>
+        <legend>Setting</legend>
+
+        <input checked id="Solo" name="setting" type="radio" value="Solo">
+        <label for="Solo">Solo</label>
+
+        <input id="Duo" name="setting" type="radio" value="Duo">
+        <label for="Duo">Duo</label>
+
+        <input id="Small Group (3-5)" name="setting" type="radio" value="Small Group (3-5)">
+        <label for="Small Group (3-5)">Small Group (3-5)</label>
+
+        <input id="Large Group (6+)" name="setting" type="radio" value="Large Group (6+)">
+        <label for="Large Group (6+)">Large Group (6+)</label>
+
+    </fieldset> 
+    </section>
+
     </section>
 
     <section>
@@ -66,7 +76,16 @@
 </body>
 </html>
 
-
+        <!-- <label for="setting">Setting</label>
+        <select id="setting" name="setting">
+            <option>Select</option>
+            <option>Solo</option>
+            <option>Duo</option>
+            <option>Small Group (3-5)</option>
+            <option>Large Group (6+)</option>
+        </select>
+         -->
+        
     <!-- <fieldset>
         <legend>Mode</legend>
         <input checked id="playful" name="mode" type="radio" value="Playful">
