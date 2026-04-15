@@ -94,9 +94,13 @@ select {
     cursor: pointer;
 	padding-block: .5rem;
 	padding-inline: .5rem;
-    width: 20%;
 }
 
+@media (width>600px) {
+	select {
+		width: 20%;
+	}
+}
 
 li {
 	list-style: none;
