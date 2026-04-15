@@ -9,7 +9,7 @@ fetch('assets/data.json')
 
 let renderItems = () => {
     let mode = document.querySelector('#mode').value
-    let setting = document.querySelector('#setting').value
+    let setting = document.querySelector('input[name="setting"]:checked').value
     let topic = document.querySelector('#topic').value
 
 
@@ -109,7 +109,7 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
         let currentPrompt = {
             prompt: document.querySelector('#convo-prompts').textContent, //I googled "javascript get text" and found this Stackoverflow thread that suggests using textContent https://stackoverflow.com/questions/6743912/how-to-get-the-pure-text-without-html-element-using-javascript 
             mode: document.querySelector('#mode').value,
-            setting: document.querySelector('#setting').value,
+            setting: document.querySelector('input[name="setting"]:checked').value,
             topic: document.querySelector('#topic').value
         }
 
