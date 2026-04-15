@@ -39,13 +39,6 @@ body {
 }
 
 
-/* hgroup {
-    display: flex;
-    flex-direction: column;
-    gap: calc(var(--spacing) / 2);
-} */
-
-
 h1 {
     font-size: var(--h1-font-size);
     line-height: 1;
@@ -164,4 +157,40 @@ dialog {
 	color: var(--primary-color);
 	padding: var(--spacing);
 	border-radius: var(--radius);
+}
+
+
+/* styling for setting fieldset */
+.setting-option {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	cursor: pointer;
+	border-radius: var(--radius);
+	padding: 1rem;
+}
+
+.setting-option img {
+	max-width: 8rem;
+}
+
+@media (width>600px) {
+	.setting-option img {
+		max-width: 15rem;
+	}
+}
+
+.setting-option input {
+	display: none;
+}
+
+ /* when one of the setting option is checked, add border */
+/* :has() on MDN https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has */
+.setting-option:has(input:checked) {
+	border: .1rem solid var(--primary-color);
+	border-radius: var(--radius);
+}
+
+fieldset {
+	border: none;
 }
