@@ -4,10 +4,11 @@
 :root {
 	--spacing: 2rem;
 
-	display: grid;
-	gap: var(--spacing);
-	margin: initial;
-	padding: var(--spacing);
+	--primary-color: rgb(0, 89, 255);
+	--secondary-color: rgb(229, 241, 217);
+	--tertiary-color: rgb(45, 12, 106);
+	--bg-color: rgb(242, 242, 242);
+
 	--h1-font-size: 2rem;
 	--h2-font-size: 1rem;
 	--s-font-size: .875rem;
@@ -19,14 +20,22 @@
 	--primary-font: 'Schibsted Grotesk', sans-serif;
 }
 	font-family: var(--primary-font);
+    background: var(--bg-color);
     font-size: var(--h1-font-size);
 
 	--primary-color: darkmagenta;
 	--secondary-color: rgb(234, 232, 229);
+h2 {
 	font-size: var(--h2-font-size);
+	color: var(--primary-color);
 	font-weight: var(--h2-font-weight);
+}
+
+p {
+	color: var(--primary-color);
 	font-size: var(--s-font-size);
 	font-weight: var(--s-font-weight);
+}
 		font-size: calc(var(--h1-font-size) * 2);
 
 		font-size: calc(var(--h2-font-size) * 1.5);
@@ -36,6 +45,7 @@
 
 form {
 	background-color: whitesmoke;
+	background-color: var(--secondary-color);
 	border-radius: calc(var(--spacing) / 2);
 	display: grid;
 	gap: var(--spacing);
@@ -43,6 +53,7 @@ form {
 }
 
 	font-size: var(--h2-font-size);
+    border: .1rem solid var(--primary-color);
 li {
 	list-style: none;
 }
@@ -59,6 +70,7 @@ nav {
 
 .generate-button {
 	color:var(--primary-color);
+	background-color: var(--tertiary-color);
 	font-size: var(--h2-font-size);
 	background-color: var(--secondary-color);
 	border: none;
@@ -78,4 +90,6 @@ nav {
 	width: 5rem;
 	padding-block: .3rem;
 	border-radius: 1rem;
+	background-color: var(--bg-color);
+	color: var(--primary-color);
 }
