@@ -13,9 +13,9 @@
 	--h2-font-size: 1rem;
 	--s-font-size: .875rem;
 
-	--h1-font-weight: 700;
-	--h2-font-weight: 500;
-	--s-font-weight: 300;
+	--font-weight-bold: 700;
+	--font-weight-medium: 500;
+	--font-weight-light: 300;
 
 	--radius: 3rem;
 
@@ -58,14 +58,14 @@ h1 {
 h2 {
 	font-size: var(--h2-font-size);
 	color: var(--primary-color);
-	font-weight: var(--h2-font-weight);
+	font-weight: var(--font-weight-medium);
 }
 
 
 p {
 	color: var(--primary-color);
 	font-size: var(--s-font-size);
-	font-weight: var(--s-font-weight);
+	font-weight: var(--font-weight-light);
 }
 
 @media (width>600px) {
@@ -90,8 +90,8 @@ form {
 	gap: var(--spacing);
 	padding: var(--spacing);
 	border: .1rem solid var(--primary-color);
-
 }
+
 
 select {
 	color: var(--primary-color);
