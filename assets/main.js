@@ -9,7 +9,7 @@ fetch('assets/data.json')
 
 let renderItems = () => {
     let mode = document.querySelector('#mode').value
-    let number = document.querySelector('#number').value
+    let setting = document.querySelector('#setting').value
     let topic = document.querySelector('#topic').value
 
 
@@ -21,24 +21,22 @@ let renderItems = () => {
 
     data.forEach(prompt => {
 
-    //If user selects a specific mode & number, but leave topic as "All"
+    //If user selects a specific mode & setting, but leave topic as "All"
         if (prompt.mode === mode &&
-            prompt.number === number &&
             topic === "All") //If user selects "All" for topic, which only exists in the html dropdown not in json
         {
             results.push(prompt)
         }
     
-    // If user selects a specific mode & number & topic
+    // If user selects a specific mode & setting & topic
         else if (prompt.mode === mode && 
-            prompt.number === number && 
+            prompt.setting === setting && 
             prompt.topic === topic) 
         {
             results.push(prompt)
         }
     }
 )
-
 
 
 
@@ -104,7 +102,7 @@ let savedPrompts = []
 
 document.querySelector('#convo-prompts').addEventListener('click', (event) => {
     if (event.target.id === 'save') {
-        
+
         // grab the current prompt text and tags from the page
         // here I'm changing the current prompt into an "object". Found how to do this here https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
         let currentPrompt = {
