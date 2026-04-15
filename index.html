@@ -9,20 +9,11 @@
 </head>
 
 <body>
-    <nav>
-    <li>
-        <h2>Conversation Prompt Generator</h2>
-    </li>
-    <li>
-        <button id="modal" class="saved-questions">View saved ♥︎</button>
-		<dialog id="dialog">
-            <ul id="saved-list"></ul>
-			<button>Close</button>
-	</dialog>
-    </li>
-    </nav>
-
-    <p>A reflection and conversation generator for international students and newcomers in NYC. Choose a mode, group size, and topic to get questions tailored to your solo or social moments—whether light and playful, reflective, or more personal.</p>
+    <header>
+        <h1>Conversation Prompt Generator</h1>
+        <h2>A reflection and conversation generator for international students and newcomers in NYC. Choose a mode, group size, and topic to get questions tailored to your solo or social moments—whether light and playful, reflective, or more personal.</p>
+        <button id="start-button">Let's get started</button>
+    </header>
 
     <form id="some-form">
 
@@ -55,21 +46,22 @@
             <option>Work</option>
             <option>Family</option>
             <option>Growth</option>
-            <option>Everyday Life</option>
         </select>
     </section>
-
 
     <button type="submit" class="generate-button">Generate</button>
     </form>
 
+    <li>
+        <button id="modal" class="saved-questions">View saved ♥︎</button>
+		<dialog id="dialog">
+            <ul id="saved-list"></ul>
+			<button class="close-button">Close</button>
+	</dialog>
+    </li>
+
     <ul id="convo-prompts"></ul>
-
-    <!-- <div>
-    <button type="save">♥︎</button>
-    </div> -->
     
-
 
 </body>
 </html>
