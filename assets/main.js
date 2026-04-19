@@ -50,13 +50,12 @@ let renderItems = () => {
     let itemHtml =
     `
     <li>
-        <h2>${random.prompt}</h2>
-        <button id="next" class="next-button">Next</button>
+        <h1>${random.prompt}</h1>
+        <button id="next">Next</button>
         <button id="save">Save</button>
     </li>
     `
     containerEl.insertAdjacentHTML('beforeend', itemHtml)
-    containerEl.scrollIntoView({ behavior: "smooth"}) // scroll to prompt after it is generated. I learned scrollIntoView({ behavior: "smooth"}) while working on the hero section and “Let’s Get Started” button, then used it here too so the experience feels more step by step
 }
 
 document.querySelector('#some-form').addEventListener('submit', (event) => {
@@ -72,7 +71,6 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
         renderItems()
     }
 })
-
 
 
 // I need a saved convo prompt button & modal. The following is from class site example
@@ -146,12 +144,3 @@ modalButton.addEventListener('click', () => {
 
     modalDialog.showModal()
 })
-
-
-// I want to add a scroll behavior when user clicks the button on hero "let's get started" that takes them to the form
-// found scrollIntoView on MDN: https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView
-
-document.querySelector('#start-button').addEventListener('click', () => { 
-    document.querySelector('#some-form').scrollIntoView({ behavior: "smooth"})
-})
-
