@@ -117,8 +117,52 @@ nav {
   	right: var(--spacing);
 }
 
+/* base button style */
+.button {
+	padding-block: 0.5rem;
+	padding-inline: 1rem;
+	border-radius: var(--radius);
+	border: 0.1rem solid var(--primary-color);
+	cursor: pointer;
+	font-family: var(--primary-font);
+	margin-block: 2rem;
+}
 
+/* dark button */
+.button-primary {
+	color: var(--secondary-color);
+	background-color: var(--primary-color);
+	font-size: var(--h2-font-size);
+}
+
+/* light button */
+.button-secondary {
+	color: var(--tertiary-color);
+	background-color: var(--secondary-color);
+	font-size: var(--s-font-size);
+}
+
+/* specific button size and position tweaks */
 .generate-button,
+#next {
+	max-width: 7rem;
+}
+
+.saved-questions,
+#save,
+.close-button,
+#start-button {
+	max-width: 13rem;
+	margin-inline: 0.2rem;
+}
+
+#back-button {
+	position: absolute;
+	top: var(--spacing);
+	left: var(--spacing);
+}
+
+/* .generate-button,
 #next {
 	color:var(--primary-color);
 	background-color: var(--tertiary-color);
@@ -128,6 +172,21 @@ nav {
 	padding-inline: 1rem;
 	border-radius: var(--radius);
 	border: .1rem solid var(--primary-color);
+}
+
+#back-button {
+    position: absolute;
+    top: var(--spacing);
+    left: var(--spacing);
+    color: var(--tertiary-color);
+    background-color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: var(--s-font-size);
+    padding-block: .5rem;
+    padding-inline: 1rem;
+    border-radius: var(--radius);
+    border: .1rem solid var(--primary-color);
+    cursor: pointer;
 }
 
 .saved-questions,
@@ -144,7 +203,7 @@ nav {
 	border-radius: var(--radius);
 	border: .1rem solid var(--primary-color);
 	margin: .2rem;
-}
+} */
 
 
 dialog {
@@ -156,7 +215,6 @@ dialog {
 
 
 #convo-prompts {
-	/* background: var(--secondary-color); */
 	color: var(--primary-color);
 	padding: var(--spacing);
 	border-radius: var(--radius);
