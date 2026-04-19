@@ -28,13 +28,24 @@
     <form id="some-form" class="hidden">
 
     <section>
-        <label for="mode">Mode</label>
-        <select id="mode" name="mode">
-            <option>Select</option>
-            <option>Playful</option>
-            <option>Reflective</option>
-            <option>Intimate</option>
-        </select>
+        <fieldset>
+            <legend>Mode</legend>
+
+            <label class="setting-option">
+                <input type="radio" name="mode" value="Playful" checked>
+                <span>Playful</span>
+            </label>
+
+            <label class="setting-option">
+                <input type="radio" name="mode" value="Reflective">
+                <span>Reflective</span>
+            </label>
+
+            <label class="setting-option">
+                <input type="radio" name="mode" value="Intimate">
+                <span>Intimate</span>
+            </label>
+        </fieldset>
     </section>
 
 <section>
@@ -70,20 +81,41 @@
 
 
     <section>
-        <label for="topic">Topic</label>
-        <select id="topic" name="topic">
-            <option>All</option>
-            <option>Relationship</option>
-            <option>Work</option>
-            <option>Family</option>
-            <option>Growth</option>
-        </select>
+        <fieldset>
+            <legend>Topic</legend>
+
+            <label class="setting-option">
+                <input type="radio" name="topic" value="All" checked>
+                <span>All</span>
+            </label>
+
+            <label class="setting-option">
+                <input type="radio" name="topic" value="Relationship">
+                <span>Relationship</span>
+            </label>
+
+            <label class="setting-option">
+                <input type="radio" name="topic" value="Work">
+                <span>Work</span>
+            </label>
+
+            <label class="setting-option">
+                <input type="radio" name="topic" value="Family">
+                <span>Family</span>
+            </label>
+
+            <label class="setting-option">
+                <input type="radio" name="topic" value="Growth">
+                <span>Growth</span>
+            </label>
+
+        </fieldset>
     </section>
 
     <button type="submit" class="generate-button">Generate</button>
     </form>
 
-        <!-- page 1 -->
+        <!-- page 3 -->
     <section id="page-3"class="full-section hidden">
         <ul id="convo-prompts"></ul>
     </section>
