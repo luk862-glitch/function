@@ -1,10 +1,31 @@
 let data = []
 
+let hideClass = 'hidden'
+let showClass = 'active'
+
+
 fetch('assets/data.json')
     .then(response => response.json())
     .then(prompt => {
         data = prompt
     })
+
+// if user clicks start button, hide page 1 and show form
+document.querySelector('#start-button').addEventListener('click', () => {
+    document.querySelector('#page-1').classList.add(hideClass)
+    document.querySelector('#some-form').classList.remove(hideClass)
+    document.querySelector('#some-form').classList.add(showClass)
+})
+
+document.querySelector('#some-form').addEventListener('submit', (event) => {
+    event.preventDefault()
+    document.querySelector('#some-form').classList.remove(showClass)
+    document.querySelector('#some-form').classList.add(hideClass)
+    document.querySelector('#page-3').classList.remove(hideClass)
+    document.querySelector('#page-3').classList.add(showClass)
+    renderItems()
+})
+
 
 
 let renderItems = () => {
@@ -39,8 +60,6 @@ let renderItems = () => {
     }
 )
 
-
-
 //generate a prompt randomly that matches the user's selection
     let random = results[Math.floor(Math.random() * results.length)]
 
@@ -56,12 +75,8 @@ let renderItems = () => {
     </li>
     `
     containerEl.insertAdjacentHTML('beforeend', itemHtml)
-}
 
-document.querySelector('#some-form').addEventListener('submit', (event) => {
-    event.preventDefault()
-    renderItems()
-})
+}
 
 
 //generate a new prompt when user slects "next"
