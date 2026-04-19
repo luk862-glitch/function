@@ -9,13 +9,23 @@
 </head>
 
 <body>
-    <header>
-        <h1>Conversation Prompt Generator</h1>
-        <h2>A reflection and conversation generator for international students and newcomers in NYC. Choose a mode, group size, and topic to get questions tailored to your solo or social moments—whether light and playful, reflective, or more personal.</p>
-        <button id="start-button">Let's get started</button>
-    </header>
+    <!-- page 1 -->
+    <header id="page-1">
+        <li>
+        <button id="modal" class="saved-questions">View saved ♥︎</button>
+		<dialog id="dialog">
+            <ul id="saved-list"></ul>
+			<button class="close-button">Close</button>
+	    </dialog>
+        </li>
 
-    <form id="some-form">
+        <h1>Conversation Starter Generator</h1>
+        <h2>Whether you are meeting new coworkers, going on a first date, or just sitting in mildly awkward silence with someone you just met — good conversations do not always come naturally. This generator gives you a prompt tailored to your mood, group size, and topic so you always have something worth saying.</p>
+        <button id="start-button">Let's get started</button>
+        </header>
+
+    <!-- page 2 -->
+    <form id="some-form" class="hidden">
 
     <section>
         <label for="mode">Mode</label>
@@ -26,25 +36,6 @@
             <option>Intimate</option>
         </select>
     </section>
-
-    <!-- <section>
-        <fieldset>
-        <legend>Setting</legend>
-
-        <input checked id="Solo" name="setting" type="radio" value="Solo">
-        <label for="Solo">Solo</label>
-
-        <input id="Duo" name="setting" type="radio" value="Duo">
-        <label for="Duo">Duo</label>
-
-        <input id="Small Group (3-5)" name="setting" type="radio" value="Small Group (3-5)">
-        <label for="Small Group (3-5)">Small Group (3-5)</label>
-
-        <input id="Large Group (6+)" name="setting" type="radio" value="Large Group (6+)">
-        <label for="Large Group (6+)">Large Group (6+)</label>
-
-    </fieldset> 
-    </section> -->
 
 <section>
     <fieldset>
@@ -92,16 +83,10 @@
     <button type="submit" class="generate-button">Generate</button>
     </form>
 
-    <li>
-        <button id="modal" class="saved-questions">View saved ♥︎</button>
-		<dialog id="dialog">
-            <ul id="saved-list"></ul>
-			<button class="close-button">Close</button>
-	</dialog>
-    </li>
-
-    <ul id="convo-prompts"></ul>
-    
+        <!-- page 1 -->
+    <section id="page-3"class="full-section hidden">
+        <ul id="convo-prompts"></ul>
+    </section>
 
 </body>
 </html>
