@@ -204,3 +204,13 @@ fieldset {
 	justify-content: center;
 	align-items: center;
 }
+
+
+/* hidden & active classes to control visibility for the 3 pages */
+.hidden {
+    display: none;
+}
+
+.active {
+    display: grid;
+}
