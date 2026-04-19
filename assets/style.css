@@ -22,7 +22,7 @@
 	--primary-font: 'Schibsted Grotesk', sans-serif;
 }
 
-#page-1 {
+header {
 	height: 100vh;
     display: flex;
     flex-direction: column;
@@ -204,23 +204,3 @@ fieldset {
 	justify-content: center;
 	align-items: center;
 }
-
-
-
-
-
-/* hide pages 2 and 3 by default */
-#some-form,
-#page-3 {
-    display: none;
-}
-
-.active {
-	display: visible;
-}
-
-.hidden {
-    display: none;
-}
-
-
