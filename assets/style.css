@@ -162,6 +162,9 @@ dialog {
 	border-radius: var(--radius);
 }
 
+.result-text {
+	font-size: calc(var(--h2-font-size)*1.4);
+}
 
 /* styling for setting fieldset */
 .setting-option {

@@ -69,7 +69,7 @@ let renderItems = () => {
     let itemHtml =
     `
     <li>
-        <h1>${random.prompt}</h1>
+        <p class="result-text">${random.prompt}</p>
         <button id="next">Next</button>
         <button id="save">Save</button>
     </li>
