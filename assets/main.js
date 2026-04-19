@@ -10,13 +10,14 @@ fetch('assets/data.json')
         data = prompt
     })
 
-// if user clicks start button, hide page 1 and show form
+// if user clicks "start" button, hide page 1 and show form
 document.querySelector('#start-button').addEventListener('click', () => {
     document.querySelector('#page-1').classList.add(hideClass)
     document.querySelector('#some-form').classList.remove(hideClass)
     document.querySelector('#some-form').classList.add(showClass)
 })
 
+//when user clicks "generate" button, hide form and show page 3 (result)
 document.querySelector('#some-form').addEventListener('submit', (event) => {
     event.preventDefault()
     document.querySelector('#some-form').classList.remove(showClass)
@@ -26,6 +27,13 @@ document.querySelector('#some-form').addEventListener('submit', (event) => {
     renderItems()
 })
 
+//when user clicks "back" button, go back to form
+document.querySelector('#back-button').addEventListener('click', () => {
+    document.querySelector('#page-3').classList.remove(showClass)
+    document.querySelector('#page-3').classList.add(hideClass)
+    document.querySelector('#some-form').classList.remove(hideClass)
+    document.querySelector('#some-form').classList.add(showClass)
+})
 
 
 let renderItems = () => {
