@@ -78,7 +78,7 @@ let renderItems = () => {
     `
     <li>
         <p class="result-text">${random.prompt}</p>
-        <button id="next">Next</button>
+        <button class="button button-primary" id="next">Next</button>
         <button id="save">Save</button>
     </li>
     `
