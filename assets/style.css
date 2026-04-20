@@ -58,12 +58,9 @@ body {
 
 h1 {
     font-size: var(--h1-font-size);
-    line-height: 1;
     letter-spacing: -0.03em;
     color: var(--primary-color);
 }
-
-
 
 h2 {
 	font-size: var(--h2-font-size);
@@ -185,7 +182,7 @@ nav {
 	max-width: 7rem;
 }
 
-.saved-questions,
+
 #save,
 .close-button,
 #start-button {
@@ -196,7 +193,6 @@ nav {
 #back-button {
 	position: absolute;
 	top: var(--spacing);
-	left: var(--spacing);
 }
 
 
