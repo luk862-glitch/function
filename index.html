@@ -13,16 +13,16 @@
     <header id="page-1">
         <li>
         <button id="modal" class="button button-secondary saved-questions">View saved ♥︎</button>
-		<dialog id="dialog">
-            <ul id="saved-list"></ul>
-			<button class="button button-secondary close-button">Close</button>
-	    </dialog>
+            <dialog id="dialog">
+                <ul id="saved-list"></ul>
+                <button class="button button-secondary close-button">Close</button>
+            </dialog>
         </li>
 
         <h1>Conversation Starter Generator</h1>
         <h2>Whether you are meeting new coworkers, going on a first date, or just sitting in mildly awkward silence with someone you just met — good conversations do not always come naturally. This generator gives you a prompt tailored to your mood, group size, and topic so you always have something worth saying.</p>
         <button class="button button-primary" id="start-button">Let's get started</button>
-        </header>
+    </header>
 
     <!-- page 2 -->
     <form id="some-form" class="hidden">
@@ -48,72 +48,68 @@
         </fieldset>
     </section>
 
-<section>
-    <fieldset>
-    <legend>Setting</legend>
+    <section>
+        <fieldset>
+            <legend>Setting</legend>
+                <label class="setting-option">
+                    <input type="radio" name="setting" value="Solo" checked>
+                    <img src="assets/solo.png" alt="Solo">
+                    <span>Solo</span>
+                </label>
 
-    <label class="setting-option">
-        <input type="radio" name="setting" value="Solo" checked>
-        <img src="assets/solo.png" alt="Solo">
-        <span>Solo</span>
-    </label>
+                <label class="setting-option">
+                    <input type="radio" name="setting" value="Duo">
+                    <img src="assets/duo.png" alt="Duo">
+                    <span>Duo</span>
+                </label>
 
-    <label class="setting-option">
-        <input type="radio" name="setting" value="Duo">
-        <img src="assets/duo.png" alt="Duo">
-        <span>Duo</span>
-    </label>
+                <label class="setting-option">
+                    <input type="radio" name="setting" value="Small Group (3-5)">
+                    <img src="assets/s-group.png" alt="Small group">
+                    <span>Small Group (3-5)</span>
+                </label>
 
-    <label class="setting-option">
-        <input type="radio" name="setting" value="Small Group (3-5)">
-        <img src="assets/s-group.png" alt="Small group">
-        <span>Small Group (3-5)</span>
-    </label>
-
-    <label class="setting-option">
-        <input type="radio" name="setting" value="Large Group (6+)">
-        <img src="assets/l-group.png" alt="Large group">
-        <span>Large Group (6+)</span>
-    </label>
-
-    </fieldset>
-</section>
-
+                <label class="setting-option">
+                    <input type="radio" name="setting" value="Large Group (6+)">
+                    <img src="assets/l-group.png" alt="Large group">
+                    <span>Large Group (6+)</span>
+                </label>
+        </fieldset>
+    </section>
 
     <section>
         <fieldset>
             <legend>Topic</legend>
 
-            <label class="setting-option">
-                <input type="radio" name="topic" value="All" checked>
-                <span>All</span>
-            </label>
+                <label class="setting-option">
+                    <input type="radio" name="topic" value="All" checked>
+                    <span>All</span>
+                </label>
 
-            <label class="setting-option">
-                <input type="radio" name="topic" value="Relationship">
-                <span>Relationship</span>
-            </label>
+                <label class="setting-option">
+                    <input type="radio" name="topic" value="Relationship">
+                    <span>Relationship</span>
+                </label>
 
-            <label class="setting-option">
-                <input type="radio" name="topic" value="Work">
-                <span>Work</span>
-            </label>
+                <label class="setting-option">
+                    <input type="radio" name="topic" value="Work">
+                    <span>Work</span>
+                </label>
 
-            <label class="setting-option">
-                <input type="radio" name="topic" value="Family">
-                <span>Family</span>
-            </label>
+                <label class="setting-option">
+                    <input type="radio" name="topic" value="Family">
+                    <span>Family</span>
+                </label>
 
-            <label class="setting-option">
-                <input type="radio" name="topic" value="Growth">
-                <span>Growth</span>
-            </label>
-
+                <label class="setting-option">
+                    <input type="radio" name="topic" value="Growth">
+                    <span>Growth</span>
+                </label>
         </fieldset>
     </section>
 
     <button type="submit" class="button button-primary generate-button">Generate</button>
-    </form>
+</form>
 
         <!-- page 3 -->
     <section id="page-3"class="full-section hidden">
@@ -123,66 +119,3 @@
 
 </body>
 </html>
-
-        <!-- <label for="setting">Setting</label>
-        <select id="setting" name="setting">
-            <option>Select</option>
-            <option>Solo</option>
-            <option>Duo</option>
-            <option>Small Group (3-5)</option>
-            <option>Large Group (6+)</option>
-        </select>
-         -->
-
-    <!-- <fieldset>
-        <legend>Mode</legend>
-        <input checked id="playful" name="mode" type="radio" value="Playful">
-        <label for="playful">Playful</label>
-        <input id="reflective" name="mode" type="radio" value="Reflective">
-        <label for="reflective">Reflective</label>
-        <input id="intimate" name="mode" type="radio" value="Intimate">
-        <label for="intimate">Intimate</label>
-    </fieldset> -->
-
-    <!-- <section>
-        <label for="mode">Mode</label>
-            <button id="playful">Playful</button>
-            <button id="reflective">Reflective</button>
-            <button id="intimate">Intimate</button>
-    </section> -->
-
-<!-- <section>
-    <label for="setting">Select setting</label>
-    <select id="setting" name="setting">
-        <option>Solo</option>
-        <option>With someone</option>
-        <option>Group</option>
-    </select>
-</section> -->
-
-<!-- <section>
-    <label for="mode">Mode</label>
-    <select id="mode" name="mode">
-        <option>Select</option>
-        <option>Playful</option>
-        <option>Reflective</option>
-        <option>Intimate</option>
-    </select>
-</section> -->
-
- <!-- 
-    <form>
-        <p>Setting</p>
-
-        <button id="solo">Solo</button>
-        <button id="with-someone">With someone</button>
-        <button id="group">Group</button>
-    </form>
-
-    <form>
-        <p>Topic</p>
-
-        <button id="relationship">Relationship</button>
-        <button id="work">Work</button>
-        <button id="growth">Growth</button>
-    </form> -->
