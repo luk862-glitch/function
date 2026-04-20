@@ -204,7 +204,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Are you actually working when you say you're working?",
+    "prompt": "Raise your hand if you’ve ever pretended to be bad at something.",
     "mode": "Playful",
     "setting": "Solo",
     "topic": "Work"
@@ -1938,7 +1938,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room has the most impressive side hustle nobody knows about? Point at them.",
+    "prompt": "Raise your hand if you’ve ever eaten during a meeting with your camera off.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
@@ -1950,7 +1950,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room would be the worst person to work with under pressure? Nominate someone.",
+    "prompt": "Raise your hand if you’ve ever joined a meeting from bed.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
@@ -1962,7 +1962,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room would survive the NYC job market with no safety net the longest? Point at them.",
+    "prompt": "Raise your hand if you do your best work the night before a deadline.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
@@ -1974,7 +1974,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room is most likely to start a business and actually make it work? Point at them.",
+    "prompt": "Who in this room is most likely to start a successful business? Point at them.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
@@ -1986,37 +1986,37 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room has the most character-building internship or job story? Point at them.",
+    "prompt": "Raise your hand if pressure is your main work style.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
   },
   {
-    "prompt": "Show of hands, who has a side hustle they've been meaning to start for over six months?",
+    "prompt": "Would you rather have one stable job or multiple income streams?",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room would take a well-paying job that had nothing to do with their degree just to stay here? Raise your hand.",
+    "prompt": "Who would take a well-paying job that had nothing to do with their degree just to stay in the city? Raise your hand.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room has the wildest 'how I'm surviving NYC financially' story? Point at yourself.",
+    "prompt": "Raise your hand if you’ve ever said ‘sounds good’ in a project and had no idea what was going on.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
   },
   {
-    "prompt": "Raise your hand if you have a skill nobody in your professional life knows about.",
+    "prompt": "Raise your hand if you've ever lied about being sick to get out of work.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room would be the best at completely reinventing their career overnight? Point at them.",
+    "prompt": "Raise your hand if you’d take $20K less for better work-life balance.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
@@ -2028,7 +2028,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Who in this room has the best 'I got the job I was completely unqualified for' story? Point at yourself.",
+    "prompt": "Raise your hand if you work in random bursts of productivity.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
@@ -2040,7 +2040,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "Raise your hand if you've sent your family a version of your life here that was a little too polished.",
+    "prompt": "Raise your hand if your parents think you have your life more together than you actually do.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Family"
@@ -2064,7 +2064,7 @@
     "topic": "Family"
   },
   {
-    "prompt": "Raise your hand if your family's idea of your life here is wildly different from reality.",
+    "prompt": "Raise your hand if your parents still don’t fully get what you do.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Family"
@@ -2142,7 +2142,7 @@
     "topic": "Family"
   },
   {
-    "prompt": "Who in this room has the best story about something they did here they'd never tell their family? Point at yourself.",
+    "prompt": "Who here has the family group chat on mute right now?",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Family"
@@ -2358,7 +2358,7 @@
     "topic": "Everyday life"
   },
   {
-    "prompt": "Who in this room would survive the longest if the subway disappeared tomorrow? Point at them.",
+    "prompt": "Raise your hand if you’re always like ‘I need to get my life together.’",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Everyday life"
@@ -4458,43 +4458,43 @@
     "topic": "Family"
   },
   {
-    "prompt": "Who in this room has the most loaded answer to 'how's your family?' right now? Point at yourself.",
+    "prompt": "Do you text your parents first or do they text you first?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Show of hands, who has felt their family and their life here pulling in opposite directions?",
+    "prompt": "Who are you most like: mom, dad, or neither?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Raise your hand if there's pressure from home that shapes how you move through life here that you rarely name.",
+    "prompt": "What’s your go-to comfort meal from home?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "If home is a feeling and not a place, raise your hand if that feeling is a little complicated right now.",
+    "prompt": "Raise your hand if you’ve taught your parents how to use an app more than once.",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Who in this room has a story about something their family said about NYC that was hilariously off base? Point at yourself.",
+    "prompt": "Who has a story about something their family said about NYC that was hilariously off base?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Show of hands, who has been more open with someone here about their family than with people back home?",
+    "prompt": "City or suburbs if you had a family?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Raise your hand if there's something you wish you could say to a family member that feels impossible to say across this distance.",
+    "prompt": "Career first or family first, if you had to pick?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
@@ -4512,31 +4512,31 @@
     "topic": "Family"
   },
   {
-    "prompt": "Raise your hand if something a family member said before you left has stayed with you more than you expected.",
+    "prompt": "One kid or multiple?",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Who in this room has become more or less close to their family since moving here? Raise your hand if it's complicated.",
+    "prompt": "Raise your hand if you’d prioritize stability before starting a family.",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Show of hands, who has realized something about where they come from since being surrounded by people from everywhere?",
+    "prompt": "Raise your hand if you’d want a big, busy family.",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Raise your hand if there's something your family expects from you that you're not sure you can give them.",
+    "prompt": "Raise your hand if you see yourself having a family someday.",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
   },
   {
-    "prompt": "Who in this room has had to grieve a version of their relationship with a family member since moving here? Raise your hand.",
+    "prompt": "Raise your hand if you could see yourself settling down in NYC.",
     "mode": "Reflective",
     "setting": "Large Group (6+)",
     "topic": "Family"
