@@ -79,7 +79,7 @@ let renderItems = () => {
     <li>
         <p class="result-text">${random.prompt}</p>
         <button class="button button-primary" id="next">Next</button>
-        <button id="save">Save</button>
+        <button class="button button-secondary" id="save">Save</button>
     </li>
     `
     containerEl.insertAdjacentHTML('beforeend', itemHtml)
@@ -129,9 +129,9 @@ document.querySelector('#convo-prompts').addEventListener('click', (event) => {
         // here I'm changing the current prompt into an "object". Found how to do this here https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics
         let currentPrompt = {
             prompt: document.querySelector('#convo-prompts').textContent, //I googled "javascript get text" and found this Stackoverflow thread that suggests using textContent https://stackoverflow.com/questions/6743912/how-to-get-the-pure-text-without-html-element-using-javascript 
-            mode: document.querySelector('#mode').value,
+            mode: document.querySelector('input[name="mode"]:checked').value,
             setting: document.querySelector('input[name="setting"]:checked').value,
-            topic: document.querySelector('#topic').value
+            topic: document.querySelector('input[name="topic"]:checked').value
         }
 
         // add it to the saved list
