@@ -44,6 +44,17 @@ body {
     gap: var(--spacing);
 }
 
+/* title styling */
+.title {
+	font-size: 3rem;
+	font-weight: var(--font-weight-medium);
+}
+
+@media (width>600px) {
+	.title {
+		font-size: 5rem;
+	}
+}
 
 h1 {
     font-size: var(--h1-font-size);
