@@ -11,17 +11,6 @@
 <body>
     <!-- page 1 -->
     <header id="page-1">
-        <li>
-        <button id="modal" class="button button-secondary saved-questions">View saved ♥︎</button>
-            <dialog id="dialog">
-                <ul id="saved-list"></ul>
-                <button class="button button-secondary close-button">Close</button>
-            </dialog>
-        </li>
-
-        <h1>Conversation Starter Generator</h1>
-        <h2>Whether you are meeting new coworkers, going on a first date, or just sitting in mildly awkward silence with someone you just met — good conversations do not always come naturally. This generator gives you a prompt tailored to your mood, group size, and topic so you always have something worth saying.</p>
-        <button class="button button-primary" id="start-button">Let's get started</button>
         <h1>Icebreaker</h1>
         <h2>Skip the small talk. Pick a vibe, who you’re with, and a topic. Get questions that makes the conversation interesting.</p>
         <button class="button button-primary" id="start-button">Start the Conversation</button>
@@ -116,7 +105,13 @@
 
         <!-- page 3 -->
     <section id="page-3"class="full-section hidden">
-          <button class="button button-secondary" id="back-button">← Back</button>
+        <button class="button button-secondary" id="back-button">← Back</button>
+            <button id="modal" class="button button-secondary saved-questions">View saved ♥︎</button>
+                <dialog id="dialog">
+                    <ul id="saved-list"></ul>
+                    <button class="button button-secondary close-button">Close</button>
+                </dialog>
+
         <ul id="convo-prompts"></ul>
     </section>
 
