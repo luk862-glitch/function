@@ -120,6 +120,7 @@ nav {
 
 .saved-questions {
 	position: absolute;
+	top: var(--spacing);
   	right: var(--spacing);
 }
 
