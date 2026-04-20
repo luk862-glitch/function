@@ -30,6 +30,12 @@ header {
     gap: var(--spacing);
 }
 
+@media (width > 600px) {
+   	header h2 {
+        max-width: 40rem;
+    }
+}
+
 body {
 	font-family: var(--primary-font);
     background: var(--bg-color);
