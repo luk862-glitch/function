@@ -204,12 +204,12 @@ dialog {
 }
 
 .setting-option img {
-	max-width: 8rem;
+	max-width: 4rem;
 }
 
 @media (width>600px) {
 	.setting-option img {
-		max-width: 15rem;
+		max-width: 10rem;
 	}
 }
 
