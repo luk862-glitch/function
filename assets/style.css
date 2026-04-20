@@ -204,6 +204,7 @@ dialog {
 }
 
 
+
 #convo-prompts {
 	color: var(--primary-color);
 	border-radius: var(--radius);
@@ -298,4 +299,12 @@ dialog {
     border-radius: var(--radius);
     padding: var(--spacing);
     background-color: var(--bg-color);
+}
+
+#saved-list h2 {
+    margin-bottom: 0.5rem;
+}
+
+#saved-list li {
+    margin-bottom: 1.5rem;
 }
