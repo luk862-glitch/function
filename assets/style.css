@@ -162,49 +162,6 @@ nav {
 	left: var(--spacing);
 }
 
-/* .generate-button,
-#next {
-	color:var(--primary-color);
-	background-color: var(--tertiary-color);
-	font-size: var(--h2-font-size);
-	max-width: 7rem;
-	padding-block: .5rem;
-	padding-inline: 1rem;
-	border-radius: var(--radius);
-	border: .1rem solid var(--primary-color);
-}
-
-#back-button {
-    position: absolute;
-    top: var(--spacing);
-    left: var(--spacing);
-    color: var(--tertiary-color);
-    background-color: var(--secondary-color);
-    font-family: var(--primary-font);
-    font-size: var(--s-font-size);
-    padding-block: .5rem;
-    padding-inline: 1rem;
-    border-radius: var(--radius);
-    border: .1rem solid var(--primary-color);
-    cursor: pointer;
-}
-
-.saved-questions,
-#save,
-.close-button,
-#start-button {
-	color:var(--tertiary-color);
-	background-color: var(--secondary-color);
-	font-family: var(--primary-font);
-	font-size: var(--s-font-size);
-	max-width: 13rem;
-	padding-block: .5rem;
-	padding-inline: 1rem;
-	border-radius: var(--radius);
-	border: .1rem solid var(--primary-color);
-	margin: .2rem;
-} */
-
 
 dialog {
 	border: .1rem solid var(--primary-color);
