@@ -17,7 +17,7 @@
 	--font-weight-medium: 500;
 	--font-weight-light: 300;
 
-	--radius: 3rem;
+	--radius: 2rem;
 
 	--primary-font: 'Schibsted Grotesk', sans-serif;
 }
@@ -93,11 +93,22 @@ form {
 	border-radius: calc(var(--spacing) / 2);
 	display: grid;
 	gap: var(--spacing);
-	padding: var(--spacing);
+	padding: calc(var(--spacing)/2);
 	border: .1rem solid var(--primary-color);
 	justify-items: center;
+	max-width: 40rem;
 }
 
+@media (width > 600px) {
+	form{
+		margin: 0 auto;
+	}
+}
+
+.form-divider {
+    border-top: .1rem solid var(--primary-color);
+    padding-top: var(--spacing);
+}
 
 select {
 	color: var(--primary-color);
@@ -213,14 +224,24 @@ dialog {
 	padding: 1rem;
 }
 
+/* form option img */
 .setting-option img {
 	max-width: 4rem;
 }
 
+/* form option text */
+.setting-option span {
+    font-size: var(--s-font-size);
+}
+
 @media (width>600px) {
 	.setting-option img {
-		max-width: 10rem;
+		max-width: 6rem;
 	}
+
+	.setting-option span {
+    font-size: var(--h2-font-size);
+}
 }
 
 .setting-option input {
@@ -230,12 +251,14 @@ dialog {
  /* when one of the setting option is checked, add border */
 /* :has() on MDN https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has */
 .setting-option:has(input:checked) {
+	background-color: var(--bg-color);
 	border: .1rem solid var(--primary-color);
 	border-radius: var(--radius);
 }
 
 fieldset {
 	border: none;
+	text-align: center;
 }
 
 .full-section {
