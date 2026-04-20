@@ -189,8 +189,15 @@ dialog {
 	border-radius: var(--radius);
 }
 
+/* #convo-prompt text */
 .result-text {
 	font-size: calc(var(--h2-font-size)*1.4);
+}
+
+@media (width>600px){
+	.result-text {
+	font-size: var(--h1-font-size);
+}
 }
 
 /* styling for setting fieldset */
