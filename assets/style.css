@@ -84,8 +84,10 @@ p {
 legend {
 	font-size: calc(var(--h2-font-size)*1.4);
 	margin-block: 1rem;
+    text-align: center;
 }
 
+/* target the entire form */
 form {
 	background-color: var(--secondary-color);
 	border-radius: calc(var(--spacing) / 2);
@@ -93,6 +95,7 @@ form {
 	gap: var(--spacing);
 	padding: var(--spacing);
 	border: .1rem solid var(--primary-color);
+	justify-items: center;
 }
 
 
