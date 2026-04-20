@@ -62,7 +62,7 @@ h2 {
 
 
 p {
-	color: var(--tertiary-color);
+	color: var(--primary-color);
 	font-size: var(--s-font-size);
 	font-weight: var(--font-weight-light);
 }
