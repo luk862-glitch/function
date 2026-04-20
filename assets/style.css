@@ -81,6 +81,10 @@ p {
 	}
 }
 
+legend {
+	font-size: calc(var(--h2-font-size)*1.4);
+	margin-block: 1rem;
+}
 
 form {
 	background-color: var(--secondary-color);
