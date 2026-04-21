@@ -148,7 +148,7 @@ modalButton.addEventListener('click', () => {
     if (savedPrompts.length === 0) {
         savedList.innerHTML = 
         `
-        <p>You do not have any saved questions atm!</
+        <p>You do not have any saved questions atm!</p>
         `
 
         // I want to show user input as tags under the prompt besides the prompt
