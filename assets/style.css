@@ -36,6 +36,74 @@ header {
     }
 }
 
+@keyframes fadeIn {
+	0% {
+		opacity: 0%;
+	}
+	
+	100% {
+		opacity: 25%;
+	}
+}
+
+header img {
+	position: absolute;
+	z-index: -100;
+	/* opacity: 20%; */
+	max-width: 60%;
+}
+
+header img:nth-child(1) {
+	left: -10%;
+	top: 15%;
+	animation: fadeIn 5s infinite alternate ease-in-out;
+}
+
+header img:nth-child(2) {
+	top: 60%;
+	left: 5%;
+	animation: fadeIn 2s infinite alternate ease-in-out;
+}
+
+header img:nth-child(3) {
+	left: 40%;
+	top: 60%;
+	animation: fadeIn 3s infinite alternate ease-in-out;
+}
+
+header img:nth-child(4) {
+	top: 20%;
+	left: 40%;
+	animation: fadeIn 4s infinite alternate ease-in-out;
+}
+
+@media (width > 600px) {
+
+	header img {
+	max-width: 30%;
+	}
+
+	header img:nth-child(1) {
+	top: 2%;
+	left: 40%;
+	}
+
+	header img:nth-child(2) {
+	top: 30%;
+	left: 40%;
+	}
+
+	header img:nth-child(3) {
+	top: 50%;
+	left: 20%;
+	}
+
+	header img:nth-child(4) {
+	top: 0;
+	left: 5%;
+	}
+}
+
 body {
 	font-family: var(--primary-font);
     background: var(--bg-color);
@@ -203,7 +271,6 @@ dialog {
 	padding: var(--spacing);
 	background-color: var(--bg-color);
 }
-
 
 
 #convo-prompts {
