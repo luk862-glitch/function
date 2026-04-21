@@ -104,7 +104,7 @@ form {
 	padding: calc(var(--spacing)/2);
 	border: .1rem solid var(--primary-color);
 	justify-items: center;
-	max-width: 40rem;
+	max-width: 50rem;
 }
 
 @media (width > 600px) {
@@ -235,7 +235,7 @@ dialog {
 
 /* form option img */
 .setting-option img {
-	max-width: 4rem;
+	max-width: 5rem;
 }
 
 /* form option text */
@@ -245,7 +245,7 @@ dialog {
 
 @media (width>600px) {
 	.setting-option img {
-		max-width: 6rem;
+		max-width: 8rem;
 	}
 
 	.setting-option span {
