@@ -91,6 +91,7 @@ p {
 
 legend {
 	font-size: calc(var(--h2-font-size)*1.4);
+	color: var(--primary-color);
 	margin-block: 1rem;
     text-align: center;
 }
