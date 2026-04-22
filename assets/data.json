@@ -786,7 +786,7 @@
     "topic": "Work"
   },
   {
-    "prompt": "What's the wildest thing either of us has considered doing just to stay in NYC?",
+    "prompt": "What's the wildest thing either of us has considered doing in NYC?",
     "mode": "Playful",
     "setting": "Duo",
     "topic": "Work"
@@ -1944,13 +1944,13 @@
     "topic": "Work"
   },
   {
-    "prompt": "Show of hands, who has considered a completely unrelated career just to stay in NYC?",
+    "prompt": "Raise your hand if you’ve thought about switching careers in the past month.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
   },
   {
-    "prompt": "Raise your hand if you’ve ever joined a meeting from bed.",
+    "prompt": "Raise your hand if you’ve ever joined a meeting in bed.",
     "mode": "Playful",
     "setting": "Large Group (6+)",
     "topic": "Work"
